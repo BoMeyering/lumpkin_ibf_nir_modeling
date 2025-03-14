@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/09503dc6548949da95736d8bcceb1288/artifacts
+end_time: 1741979536560
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 09503dc6548949da95736d8bcceb1288
+run_name: enthused-fawn-589
+run_uuid: 09503dc6548949da95736d8bcceb1288
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741979533790
+status: 3
+tags: []
+user_id: bomeyering

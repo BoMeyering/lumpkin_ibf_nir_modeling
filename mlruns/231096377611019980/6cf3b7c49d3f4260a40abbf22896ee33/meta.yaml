@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/6cf3b7c49d3f4260a40abbf22896ee33/artifacts
+deleted_time: 1741720832002
+end_time: 1741720123771
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 6cf3b7c49d3f4260a40abbf22896ee33
+run_name: intrigued-kit-563
+run_uuid: 6cf3b7c49d3f4260a40abbf22896ee33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720120706
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/fa83b1e0f4cb4aeab8acb76bb44f6dc0/artifacts
+deleted_time: 1741720831990
+end_time: 1741720146131
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: fa83b1e0f4cb4aeab8acb76bb44f6dc0
+run_name: whimsical-bug-457
+run_uuid: fa83b1e0f4cb4aeab8acb76bb44f6dc0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720142976
+status: 3
+tags: []
+user_id: bomeyering

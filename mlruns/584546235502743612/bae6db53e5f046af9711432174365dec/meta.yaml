@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/bae6db53e5f046af9711432174365dec/artifacts
+end_time: 1741980522826
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: bae6db53e5f046af9711432174365dec
+run_name: fortunate-ox-835
+run_uuid: bae6db53e5f046af9711432174365dec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980519637
+status: 3
+tags: []
+user_id: bomeyering

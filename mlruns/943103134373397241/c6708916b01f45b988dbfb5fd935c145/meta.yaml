@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/c6708916b01f45b988dbfb5fd935c145/artifacts
+deleted_time: 1741717996559
+end_time: 1741717905786
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: c6708916b01f45b988dbfb5fd935c145
+run_name: dashing-stork-47
+run_uuid: c6708916b01f45b988dbfb5fd935c145
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717902839
+status: 3
+tags: []
+user_id: bomeyering

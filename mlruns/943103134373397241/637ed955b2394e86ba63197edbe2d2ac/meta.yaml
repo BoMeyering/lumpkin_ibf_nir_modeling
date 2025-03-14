@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/637ed955b2394e86ba63197edbe2d2ac/artifacts
+end_time: 1741993842849
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: active
+run_id: 637ed955b2394e86ba63197edbe2d2ac
+run_name: luminous-smelt-989
+run_uuid: 637ed955b2394e86ba63197edbe2d2ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993838477
+status: 3
+tags: []
+user_id: bomeyering

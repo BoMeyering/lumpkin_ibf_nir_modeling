@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/803f0a1eb282418f9fe1e1c18c02d087/artifacts
+end_time: 1741980491727
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: 803f0a1eb282418f9fe1e1c18c02d087
+run_name: crawling-rat-888
+run_uuid: 803f0a1eb282418f9fe1e1c18c02d087
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980488333
+status: 3
+tags: []
+user_id: bomeyering

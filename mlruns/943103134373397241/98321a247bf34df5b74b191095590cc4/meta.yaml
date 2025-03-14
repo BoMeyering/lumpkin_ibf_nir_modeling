@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/98321a247bf34df5b74b191095590cc4/artifacts
+deleted_time: 1741975985425
+end_time: 1741794311335
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: 98321a247bf34df5b74b191095590cc4
+run_name: bouncy-sheep-635
+run_uuid: 98321a247bf34df5b74b191095590cc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794308254
+status: 3
+tags: []
+user_id: bomeyering

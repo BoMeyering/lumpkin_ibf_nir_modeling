@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/ea55554334894f2ebdf5c306d6bbd7fb/artifacts
+deleted_time: 1741720058182
+end_time: 1741718110241
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: ea55554334894f2ebdf5c306d6bbd7fb
+run_name: exultant-lynx-880
+run_uuid: ea55554334894f2ebdf5c306d6bbd7fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718107083
+status: 3
+tags: []
+user_id: bomeyering

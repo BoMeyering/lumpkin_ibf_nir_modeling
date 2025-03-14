@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/83ee1f4d8ffd4dde8fbf58f9112fe038/artifacts
+deleted_time: 1741718085450
+end_time: 1741718051416
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: 83ee1f4d8ffd4dde8fbf58f9112fe038
+run_name: bald-fly-830
+run_uuid: 83ee1f4d8ffd4dde8fbf58f9112fe038
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718048354
+status: 3
+tags: []
+user_id: bomeyering

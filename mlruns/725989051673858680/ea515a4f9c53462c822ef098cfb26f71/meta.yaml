@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/ea515a4f9c53462c822ef098cfb26f71/artifacts
+deleted_time: 1741717885260
+end_time: 1741717140059
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: ea515a4f9c53462c822ef098cfb26f71
+run_name: puzzled-bass-199
+run_uuid: ea515a4f9c53462c822ef098cfb26f71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717136845
+status: 3
+tags: []
+user_id: bomeyering

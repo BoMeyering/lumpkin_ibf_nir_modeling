@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/68ee91e908974734b1e74fc0a7342b0a/artifacts
+deleted_time: 1741720832000
+end_time: 1741720126837
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: 68ee91e908974734b1e74fc0a7342b0a
+run_name: placid-dove-135
+run_uuid: 68ee91e908974734b1e74fc0a7342b0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720123790
+status: 3
+tags: []
+user_id: bomeyering

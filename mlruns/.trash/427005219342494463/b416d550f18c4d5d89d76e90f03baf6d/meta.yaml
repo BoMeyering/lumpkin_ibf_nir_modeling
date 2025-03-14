@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/427005219342494463/b416d550f18c4d5d89d76e90f03baf6d/artifacts
+deleted_time: 1741720058176
+end_time: 1741719375209
+entry_point_name: ''
+experiment_id: '427005219342494463'
+lifecycle_stage: deleted
+run_id: b416d550f18c4d5d89d76e90f03baf6d
+run_name: gentle-koi-9
+run_uuid: b416d550f18c4d5d89d76e90f03baf6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741719375195
+status: 4
+tags: []
+user_id: bomeyering

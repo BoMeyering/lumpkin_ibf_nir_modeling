@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/2ef5d83bf00f41dcb282972589756ede/artifacts
+end_time: 1741993745896
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 2ef5d83bf00f41dcb282972589756ede
+run_name: rebellious-jay-570
+run_uuid: 2ef5d83bf00f41dcb282972589756ede
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993742227
+status: 3
+tags: []
+user_id: bomeyering

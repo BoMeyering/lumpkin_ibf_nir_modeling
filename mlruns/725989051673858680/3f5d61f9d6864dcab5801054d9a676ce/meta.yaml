@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/3f5d61f9d6864dcab5801054d9a676ce/artifacts
+end_time: 1741977229374
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: 3f5d61f9d6864dcab5801054d9a676ce
+run_name: exultant-mare-955
+run_uuid: 3f5d61f9d6864dcab5801054d9a676ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977226256
+status: 3
+tags: []
+user_id: bomeyering

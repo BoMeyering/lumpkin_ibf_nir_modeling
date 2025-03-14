@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/a90b32fef98e420483d032e3630d77fb/artifacts
+deleted_time: 1741717885268
+end_time: 1741717121615
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: a90b32fef98e420483d032e3630d77fb
+run_name: learned-cow-961
+run_uuid: a90b32fef98e420483d032e3630d77fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717118545
+status: 3
+tags: []
+user_id: bomeyering

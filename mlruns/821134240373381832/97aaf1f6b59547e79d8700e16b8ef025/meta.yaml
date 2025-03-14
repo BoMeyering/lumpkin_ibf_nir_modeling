@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/97aaf1f6b59547e79d8700e16b8ef025/artifacts
+deleted_time: 1741717885244
+end_time: 1741717312854
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: 97aaf1f6b59547e79d8700e16b8ef025
+run_name: bemused-sloth-121
+run_uuid: 97aaf1f6b59547e79d8700e16b8ef025
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717309661
+status: 3
+tags: []
+user_id: bomeyering

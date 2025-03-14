@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/85edbf20460549ed9fce038a15675292/artifacts
+deleted_time: 1741720058184
+end_time: 1741718107063
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: 85edbf20460549ed9fce038a15675292
+run_name: redolent-bass-857
+run_uuid: 85edbf20460549ed9fce038a15675292
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718103694
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/d88284e874bb448fa896fc1664407067/artifacts
+end_time: 1741977186886
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: d88284e874bb448fa896fc1664407067
+run_name: bemused-colt-863
+run_uuid: d88284e874bb448fa896fc1664407067
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977183788
+status: 3
+tags: []
+user_id: bomeyering

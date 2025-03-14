@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/e78eef1f308b49139023c39223e53635/artifacts
+deleted_time: 1741717885242
+end_time: 1741717315908
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: e78eef1f308b49139023c39223e53635
+run_name: resilient-bear-136
+run_uuid: e78eef1f308b49139023c39223e53635
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717312864
+status: 3
+tags: []
+user_id: bomeyering

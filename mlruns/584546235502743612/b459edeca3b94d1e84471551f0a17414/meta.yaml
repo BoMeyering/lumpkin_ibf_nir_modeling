@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/b459edeca3b94d1e84471551f0a17414/artifacts
+end_time: 1741980362149
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: b459edeca3b94d1e84471551f0a17414
+run_name: whimsical-shad-597
+run_uuid: b459edeca3b94d1e84471551f0a17414
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980358613
+status: 3
+tags: []
+user_id: bomeyering

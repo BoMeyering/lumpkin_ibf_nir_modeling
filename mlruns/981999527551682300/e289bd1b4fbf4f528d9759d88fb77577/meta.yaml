@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/e289bd1b4fbf4f528d9759d88fb77577/artifacts
+end_time: 1741980256027
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: e289bd1b4fbf4f528d9759d88fb77577
+run_name: wistful-dove-211
+run_uuid: e289bd1b4fbf4f528d9759d88fb77577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980253040
+status: 3
+tags: []
+user_id: bomeyering

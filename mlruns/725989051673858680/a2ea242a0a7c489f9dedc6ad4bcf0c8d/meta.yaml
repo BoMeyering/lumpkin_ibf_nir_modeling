@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/a2ea242a0a7c489f9dedc6ad4bcf0c8d/artifacts
+deleted_time: 1741720831989
+end_time: 1741720149323
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: a2ea242a0a7c489f9dedc6ad4bcf0c8d
+run_name: unleashed-jay-818
+run_uuid: a2ea242a0a7c489f9dedc6ad4bcf0c8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720146150
+status: 3
+tags: []
+user_id: bomeyering

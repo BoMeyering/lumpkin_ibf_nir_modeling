@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/66e1501f62ae44288c7b7736e53938ec/artifacts
+deleted_time: 1741720831994
+end_time: 1741720139447
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 66e1501f62ae44288c7b7736e53938ec
+run_name: smiling-robin-180
+run_uuid: 66e1501f62ae44288c7b7736e53938ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720136176
+status: 3
+tags: []
+user_id: bomeyering

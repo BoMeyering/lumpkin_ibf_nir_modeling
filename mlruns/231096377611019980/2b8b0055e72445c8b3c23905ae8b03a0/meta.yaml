@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/2b8b0055e72445c8b3c23905ae8b03a0/artifacts
+end_time: 1741980102219
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: 2b8b0055e72445c8b3c23905ae8b03a0
+run_name: lyrical-gnat-918
+run_uuid: 2b8b0055e72445c8b3c23905ae8b03a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980095907
+status: 4
+tags: []
+user_id: bomeyering

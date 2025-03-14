@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/d0f9dbdac1b24c35b28c9ba8bacdf370/artifacts
+end_time: 1741980244277
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: active
+run_id: d0f9dbdac1b24c35b28c9ba8bacdf370
+run_name: chill-eel-807
+run_uuid: d0f9dbdac1b24c35b28c9ba8bacdf370
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980241331
+status: 3
+tags: []
+user_id: bomeyering

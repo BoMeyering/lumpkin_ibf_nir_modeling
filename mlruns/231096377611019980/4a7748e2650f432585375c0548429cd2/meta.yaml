@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/4a7748e2650f432585375c0548429cd2/artifacts
+deleted_time: 1741717996562
+end_time: 1741717899816
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 4a7748e2650f432585375c0548429cd2
+run_name: sneaky-crow-691
+run_uuid: 4a7748e2650f432585375c0548429cd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717896903
+status: 3
+tags: []
+user_id: bomeyering

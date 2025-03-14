@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/31133f2d93dd454ebd4c1520d322a78f/artifacts
+deleted_time: 1741718085443
+end_time: 1741718063580
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: 31133f2d93dd454ebd4c1520d322a78f
+run_name: rebellious-mink-964
+run_uuid: 31133f2d93dd454ebd4c1520d322a78f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718060593
+status: 3
+tags: []
+user_id: bomeyering

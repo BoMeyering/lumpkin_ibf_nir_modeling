@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/47b673f37aa9458cb2bc7a97df201ef4/artifacts
+deleted_time: 1741717885257
+end_time: 1741717291219
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 47b673f37aa9458cb2bc7a97df201ef4
+run_name: dashing-goose-418
+run_uuid: 47b673f37aa9458cb2bc7a97df201ef4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717288203
+status: 3
+tags: []
+user_id: bomeyering

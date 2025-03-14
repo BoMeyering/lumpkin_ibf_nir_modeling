@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/8abf10b4d2bd4abeb025e64a11f82d2c/artifacts
+deleted_time: 1741720058156
+end_time: 1741720055259
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: deleted
+run_id: 8abf10b4d2bd4abeb025e64a11f82d2c
+run_name: grandiose-kite-520
+run_uuid: 8abf10b4d2bd4abeb025e64a11f82d2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720052054
+status: 3
+tags: []
+user_id: bomeyering

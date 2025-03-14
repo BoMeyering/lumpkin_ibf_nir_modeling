@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/1ea17a19561a48c69755cbbd5e53f5e0/artifacts
+deleted_time: 1741975985424
+end_time: 1741794314483
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 1ea17a19561a48c69755cbbd5e53f5e0
+run_name: charming-pig-783
+run_uuid: 1ea17a19561a48c69755cbbd5e53f5e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794311356
+status: 3
+tags: []
+user_id: bomeyering

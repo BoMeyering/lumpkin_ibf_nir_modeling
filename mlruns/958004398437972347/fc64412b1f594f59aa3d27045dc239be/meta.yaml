@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/958004398437972347/fc64412b1f594f59aa3d27045dc239be/artifacts
+deleted_time: 1741794263583
+end_time: 1741726111677
+entry_point_name: ''
+experiment_id: '958004398437972347'
+lifecycle_stage: deleted
+run_id: fc64412b1f594f59aa3d27045dc239be
+run_name: efficient-conch-638
+run_uuid: fc64412b1f594f59aa3d27045dc239be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741726108493
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/aadaa3d4889e436397758465972cb954/artifacts
+deleted_time: 1741720951005
+end_time: 1741720869398
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: deleted
+run_id: aadaa3d4889e436397758465972cb954
+run_name: indecisive-mink-128
+run_uuid: aadaa3d4889e436397758465972cb954
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720866106
+status: 3
+tags: []
+user_id: bomeyering

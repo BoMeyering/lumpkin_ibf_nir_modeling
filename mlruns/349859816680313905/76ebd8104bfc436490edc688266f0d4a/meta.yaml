@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/76ebd8104bfc436490edc688266f0d4a/artifacts
+end_time: 1741980385713
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: active
+run_id: 76ebd8104bfc436490edc688266f0d4a
+run_name: merciful-vole-449
+run_uuid: 76ebd8104bfc436490edc688266f0d4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980382513
+status: 3
+tags: []
+user_id: bomeyering

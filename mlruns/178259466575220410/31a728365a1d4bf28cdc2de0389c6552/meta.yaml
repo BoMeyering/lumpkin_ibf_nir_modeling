@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/31a728365a1d4bf28cdc2de0389c6552/artifacts
+deleted_time: 1741717885266
+end_time: 1741717127628
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: 31a728365a1d4bf28cdc2de0389c6552
+run_name: blushing-wolf-4
+run_uuid: 31a728365a1d4bf28cdc2de0389c6552
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717124643
+status: 3
+tags: []
+user_id: bomeyering

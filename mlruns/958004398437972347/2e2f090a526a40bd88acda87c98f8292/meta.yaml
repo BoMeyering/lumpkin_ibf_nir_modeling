@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/958004398437972347/2e2f090a526a40bd88acda87c98f8292/artifacts
+deleted_time: 1741811206471
+end_time: 1741794336873
+entry_point_name: ''
+experiment_id: '958004398437972347'
+lifecycle_stage: deleted
+run_id: 2e2f090a526a40bd88acda87c98f8292
+run_name: puzzled-goat-162
+run_uuid: 2e2f090a526a40bd88acda87c98f8292
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794333606
+status: 3
+tags: []
+user_id: bomeyering

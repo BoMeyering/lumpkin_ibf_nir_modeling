@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/61905b87cea447e893050ebf904ff671/artifacts
+end_time: 1741993864353
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: 61905b87cea447e893050ebf904ff671
+run_name: efficient-panda-495
+run_uuid: 61905b87cea447e893050ebf904ff671
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993860756
+status: 3
+tags: []
+user_id: bomeyering

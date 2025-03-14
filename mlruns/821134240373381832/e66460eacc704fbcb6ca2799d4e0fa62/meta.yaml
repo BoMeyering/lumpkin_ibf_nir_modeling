@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/e66460eacc704fbcb6ca2799d4e0fa62/artifacts
+deleted_time: 1741718085444
+end_time: 1741718060575
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: e66460eacc704fbcb6ca2799d4e0fa62
+run_name: angry-cow-294
+run_uuid: e66460eacc704fbcb6ca2799d4e0fa62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718057505
+status: 3
+tags: []
+user_id: bomeyering

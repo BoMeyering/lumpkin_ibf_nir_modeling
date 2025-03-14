@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/320a0155aa394f999d493498b96ce2bb/artifacts
+end_time: 1741980258975
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: 320a0155aa394f999d493498b96ce2bb
+run_name: adorable-bat-834
+run_uuid: 320a0155aa394f999d493498b96ce2bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980256055
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/71bc3e5d92984cfb9a7082aa2d74d134/artifacts
+deleted_time: 1741717885271
+end_time: 1741717115530
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 71bc3e5d92984cfb9a7082aa2d74d134
+run_name: bold-slug-338
+run_uuid: 71bc3e5d92984cfb9a7082aa2d74d134
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717112451
+status: 3
+tags: []
+user_id: bomeyering

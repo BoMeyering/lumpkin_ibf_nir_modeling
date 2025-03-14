@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/2f77df8eb53644b8bb36320eb02f5c66/artifacts
+end_time: 1741980358564
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: 2f77df8eb53644b8bb36320eb02f5c66
+run_name: unruly-ray-128
+run_uuid: 2f77df8eb53644b8bb36320eb02f5c66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980353478
+status: 3
+tags: []
+user_id: bomeyering

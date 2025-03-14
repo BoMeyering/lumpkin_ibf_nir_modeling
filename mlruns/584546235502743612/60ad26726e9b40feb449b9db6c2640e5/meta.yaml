@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/60ad26726e9b40feb449b9db6c2640e5/artifacts
+deleted_time: 1741717996560
+end_time: 1741717902822
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: 60ad26726e9b40feb449b9db6c2640e5
+run_name: marvelous-finch-7
+run_uuid: 60ad26726e9b40feb449b9db6c2640e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717899835
+status: 3
+tags: []
+user_id: bomeyering

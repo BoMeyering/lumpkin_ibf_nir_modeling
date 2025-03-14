@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/958004398437972347/a1f81093507844c9b42b5665a23b52e9/artifacts
+deleted_time: 1741794263583
+end_time: 1741726084344
+entry_point_name: ''
+experiment_id: '958004398437972347'
+lifecycle_stage: deleted
+run_id: a1f81093507844c9b42b5665a23b52e9
+run_name: capricious-mink-71
+run_uuid: a1f81093507844c9b42b5665a23b52e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741726084332
+status: 4
+tags: []
+user_id: bomeyering

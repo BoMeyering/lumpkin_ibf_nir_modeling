@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/567a1ab4a9f84d3fb3ab7c5dcb6ecd38/artifacts
+end_time: 1741980398131
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 567a1ab4a9f84d3fb3ab7c5dcb6ecd38
+run_name: mercurial-swan-362
+run_uuid: 567a1ab4a9f84d3fb3ab7c5dcb6ecd38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980395171
+status: 3
+tags: []
+user_id: bomeyering

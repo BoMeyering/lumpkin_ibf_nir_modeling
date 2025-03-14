@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/c82051fd6deb4e729d68325d23e57d74/artifacts
+end_time: 1741977232591
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: active
+run_id: c82051fd6deb4e729d68325d23e57d74
+run_name: funny-foal-654
+run_uuid: c82051fd6deb4e729d68325d23e57d74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977229395
+status: 3
+tags: []
+user_id: bomeyering

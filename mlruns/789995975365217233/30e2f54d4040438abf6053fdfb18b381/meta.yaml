@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/30e2f54d4040438abf6053fdfb18b381/artifacts
+deleted_time: 1741717885231
+end_time: 1741717745030
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 30e2f54d4040438abf6053fdfb18b381
+run_name: unequaled-sponge-184
+run_uuid: 30e2f54d4040438abf6053fdfb18b381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717741901
+status: 3
+tags: []
+user_id: bomeyering

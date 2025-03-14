@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/aeb8d56423f54bb5ad9373de68167916/artifacts
+end_time: 1741977190195
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: aeb8d56423f54bb5ad9373de68167916
+run_name: abundant-fox-673
+run_uuid: aeb8d56423f54bb5ad9373de68167916
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977186906
+status: 3
+tags: []
+user_id: bomeyering

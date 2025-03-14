@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/aebd74feb62c48808357adaad41f8345/artifacts
+deleted_time: 1741717885233
+end_time: 1741717741889
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: aebd74feb62c48808357adaad41f8345
+run_name: wistful-bass-807
+run_uuid: aebd74feb62c48808357adaad41f8345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717738866
+status: 3
+tags: []
+user_id: bomeyering

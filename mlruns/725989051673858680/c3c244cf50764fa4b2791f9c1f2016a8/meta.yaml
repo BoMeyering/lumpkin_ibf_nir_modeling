@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/c3c244cf50764fa4b2791f9c1f2016a8/artifacts
+end_time: 1741993757255
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: c3c244cf50764fa4b2791f9c1f2016a8
+run_name: delightful-slug-59
+run_uuid: c3c244cf50764fa4b2791f9c1f2016a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993753008
+status: 3
+tags: []
+user_id: bomeyering

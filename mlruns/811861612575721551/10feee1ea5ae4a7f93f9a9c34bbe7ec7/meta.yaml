@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/10feee1ea5ae4a7f93f9a9c34bbe7ec7/artifacts
+end_time: 1741980247213
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 10feee1ea5ae4a7f93f9a9c34bbe7ec7
+run_name: dashing-hound-124
+run_uuid: 10feee1ea5ae4a7f93f9a9c34bbe7ec7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980244300
+status: 3
+tags: []
+user_id: bomeyering

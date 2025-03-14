@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/ab265f7c0e87420c9058c8a12ff1457c/artifacts
+end_time: 1741980541571
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: ab265f7c0e87420c9058c8a12ff1457c
+run_name: mercurial-squid-109
+run_uuid: ab265f7c0e87420c9058c8a12ff1457c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980538577
+status: 3
+tags: []
+user_id: bomeyering

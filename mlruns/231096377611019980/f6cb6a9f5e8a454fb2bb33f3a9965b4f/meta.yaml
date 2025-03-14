@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/f6cb6a9f5e8a454fb2bb33f3a9965b4f/artifacts
+deleted_time: 1741720058166
+end_time: 1741720026640
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: f6cb6a9f5e8a454fb2bb33f3a9965b4f
+run_name: sincere-finch-197
+run_uuid: f6cb6a9f5e8a454fb2bb33f3a9965b4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720022925
+status: 3
+tags: []
+user_id: bomeyering

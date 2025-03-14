@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/ab6b653d864f47bfa61652a3c090dfac/artifacts
+end_time: 1741980510249
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: ab6b653d864f47bfa61652a3c090dfac
+run_name: painted-croc-372
+run_uuid: ab6b653d864f47bfa61652a3c090dfac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980507154
+status: 3
+tags: []
+user_id: bomeyering

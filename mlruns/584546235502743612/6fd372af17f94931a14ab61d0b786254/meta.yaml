@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/6fd372af17f94931a14ab61d0b786254/artifacts
+deleted_time: 1741718085456
+end_time: 1741718042179
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: 6fd372af17f94931a14ab61d0b786254
+run_name: bedecked-grub-882
+run_uuid: 6fd372af17f94931a14ab61d0b786254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718039215
+status: 3
+tags: []
+user_id: bomeyering

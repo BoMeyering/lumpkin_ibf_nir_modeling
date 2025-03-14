@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/4ace344cbdb3482e9f430eb0926a0c07/artifacts
+end_time: 1741993827785
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: 4ace344cbdb3482e9f430eb0926a0c07
+run_name: redolent-bird-105
+run_uuid: 4ace344cbdb3482e9f430eb0926a0c07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993824102
+status: 3
+tags: []
+user_id: bomeyering

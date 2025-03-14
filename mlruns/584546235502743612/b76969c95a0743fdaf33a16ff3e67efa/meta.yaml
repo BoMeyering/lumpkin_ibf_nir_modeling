@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/b76969c95a0743fdaf33a16ff3e67efa/artifacts
+deleted_time: 1741720058165
+end_time: 1741720029745
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: b76969c95a0743fdaf33a16ff3e67efa
+run_name: selective-ox-877
+run_uuid: b76969c95a0743fdaf33a16ff3e67efa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720026658
+status: 3
+tags: []
+user_id: bomeyering

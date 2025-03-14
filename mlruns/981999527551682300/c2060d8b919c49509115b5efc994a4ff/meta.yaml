@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/c2060d8b919c49509115b5efc994a4ff/artifacts
+deleted_time: 1741717996549
+end_time: 1741717917908
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: deleted
+run_id: c2060d8b919c49509115b5efc994a4ff
+run_name: bemused-dove-326
+run_uuid: c2060d8b919c49509115b5efc994a4ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717914982
+status: 3
+tags: []
+user_id: bomeyering

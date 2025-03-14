@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/7e1d0c90b8be4399a993f965313a0e00/artifacts
+deleted_time: 1741975985403
+end_time: 1741973241896
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 7e1d0c90b8be4399a993f965313a0e00
+run_name: sedate-stag-875
+run_uuid: 7e1d0c90b8be4399a993f965313a0e00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973238329
+status: 3
+tags: []
+user_id: bomeyering

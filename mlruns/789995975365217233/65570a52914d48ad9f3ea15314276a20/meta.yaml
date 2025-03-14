@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/65570a52914d48ad9f3ea15314276a20/artifacts
+end_time: 1741979542333
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 65570a52914d48ad9f3ea15314276a20
+run_name: burly-lynx-503
+run_uuid: 65570a52914d48ad9f3ea15314276a20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741979539474
+status: 3
+tags: []
+user_id: bomeyering

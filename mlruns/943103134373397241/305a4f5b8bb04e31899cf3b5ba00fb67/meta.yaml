@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/305a4f5b8bb04e31899cf3b5ba00fb67/artifacts
+end_time: 1741980273915
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: active
+run_id: 305a4f5b8bb04e31899cf3b5ba00fb67
+run_name: marvelous-mule-776
+run_uuid: 305a4f5b8bb04e31899cf3b5ba00fb67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980270965
+status: 3
+tags: []
+user_id: bomeyering

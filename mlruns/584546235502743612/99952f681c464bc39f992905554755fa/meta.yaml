@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/99952f681c464bc39f992905554755fa/artifacts
+deleted_time: 1741975985425
+end_time: 1741794308232
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: 99952f681c464bc39f992905554755fa
+run_name: amazing-goose-10
+run_uuid: 99952f681c464bc39f992905554755fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794305091
+status: 3
+tags: []
+user_id: bomeyering

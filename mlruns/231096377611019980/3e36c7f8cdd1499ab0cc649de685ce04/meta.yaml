@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/3e36c7f8cdd1499ab0cc649de685ce04/artifacts
+end_time: 1741980305832
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: 3e36c7f8cdd1499ab0cc649de685ce04
+run_name: gregarious-loon-340
+run_uuid: 3e36c7f8cdd1499ab0cc649de685ce04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980302816
+status: 4
+tags: []
+user_id: bomeyering

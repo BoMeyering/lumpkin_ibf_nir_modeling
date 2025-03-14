@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/f41f1cec78684b2cb3dada12c19338a1/artifacts
+deleted_time: 1741717885249
+end_time: 1741717306605
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: f41f1cec78684b2cb3dada12c19338a1
+run_name: abrasive-midge-261
+run_uuid: f41f1cec78684b2cb3dada12c19338a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717303510
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/08f7dcce14144dffb274a94dddcc8089/artifacts
+deleted_time: 1741718085452
+end_time: 1741718048335
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 08f7dcce14144dffb274a94dddcc8089
+run_name: whimsical-horse-143
+run_uuid: 08f7dcce14144dffb274a94dddcc8089
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718045237
+status: 3
+tags: []
+user_id: bomeyering

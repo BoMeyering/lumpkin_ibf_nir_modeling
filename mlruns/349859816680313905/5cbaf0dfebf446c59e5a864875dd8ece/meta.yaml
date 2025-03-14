@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/5cbaf0dfebf446c59e5a864875dd8ece/artifacts
+deleted_time: 1741717885258
+end_time: 1741717288191
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: deleted
+run_id: 5cbaf0dfebf446c59e5a864875dd8ece
+run_name: treasured-whale-863
+run_uuid: 5cbaf0dfebf446c59e5a864875dd8ece
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717285183
+status: 3
+tags: []
+user_id: bomeyering

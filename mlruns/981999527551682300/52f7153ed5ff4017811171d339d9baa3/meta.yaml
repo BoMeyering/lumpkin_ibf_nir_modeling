@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/52f7153ed5ff4017811171d339d9baa3/artifacts
+deleted_time: 1741718085447
+end_time: 1741718057487
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: deleted
+run_id: 52f7153ed5ff4017811171d339d9baa3
+run_name: nimble-ant-775
+run_uuid: 52f7153ed5ff4017811171d339d9baa3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718054487
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/19ba9dea9069430bb5d838754d8f7e87/artifacts
+deleted_time: 1741975985416
+end_time: 1741794333518
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: deleted
+run_id: 19ba9dea9069430bb5d838754d8f7e87
+run_name: legendary-lamb-279
+run_uuid: 19ba9dea9069430bb5d838754d8f7e87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794330378
+status: 3
+tags: []
+user_id: bomeyering

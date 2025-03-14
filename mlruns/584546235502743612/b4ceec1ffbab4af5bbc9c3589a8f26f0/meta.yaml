@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/b4ceec1ffbab4af5bbc9c3589a8f26f0/artifacts
+deleted_time: 1741720058187
+end_time: 1741718097527
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: b4ceec1ffbab4af5bbc9c3589a8f26f0
+run_name: victorious-crow-75
+run_uuid: b4ceec1ffbab4af5bbc9c3589a8f26f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718094479
+status: 3
+tags: []
+user_id: bomeyering

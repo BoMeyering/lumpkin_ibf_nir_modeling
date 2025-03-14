@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/165c095bc66f4b0a90bb001b1267292c/artifacts
+deleted_time: 1741720058162
+end_time: 1741720032979
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: 165c095bc66f4b0a90bb001b1267292c
+run_name: awesome-frog-706
+run_uuid: 165c095bc66f4b0a90bb001b1267292c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720029765
+status: 3
+tags: []
+user_id: bomeyering

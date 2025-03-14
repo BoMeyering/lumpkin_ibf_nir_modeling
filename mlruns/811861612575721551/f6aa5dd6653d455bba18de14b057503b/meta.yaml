@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/f6aa5dd6653d455bba18de14b057503b/artifacts
+deleted_time: 1741720831996
+end_time: 1741720133047
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: f6aa5dd6653d455bba18de14b057503b
+run_name: dashing-smelt-194
+run_uuid: f6aa5dd6653d455bba18de14b057503b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720129956
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/90b4255b6f0f47348df6c478e5bc4fbd/artifacts
+deleted_time: 1741720058157
+end_time: 1741720045531
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: deleted
+run_id: 90b4255b6f0f47348df6c478e5bc4fbd
+run_name: tasteful-grub-298
+run_uuid: 90b4255b6f0f47348df6c478e5bc4fbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720042312
+status: 3
+tags: []
+user_id: bomeyering

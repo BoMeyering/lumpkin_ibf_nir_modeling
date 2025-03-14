@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/e2946dea3cf64bc8a9b1dafb1cacfc5d/artifacts
+deleted_time: 1741975985417
+end_time: 1741794330355
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: e2946dea3cf64bc8a9b1dafb1cacfc5d
+run_name: masked-sponge-822
+run_uuid: e2946dea3cf64bc8a9b1dafb1cacfc5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794327050
+status: 3
+tags: []
+user_id: bomeyering

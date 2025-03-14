@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/5af099b9c37c41f3b8bc5f3b19357001/artifacts
+deleted_time: 1741794263586
+end_time: 1741720992575
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: deleted
+run_id: 5af099b9c37c41f3b8bc5f3b19357001
+run_name: overjoyed-cod-471
+run_uuid: 5af099b9c37c41f3b8bc5f3b19357001
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720989393
+status: 3
+tags: []
+user_id: bomeyering

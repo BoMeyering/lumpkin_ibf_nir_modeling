@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/958004398437972347/e470aa6c43144bc588f38d1d2c74948d/artifacts
+deleted_time: 1741975985396
+end_time: 1741973804003
+entry_point_name: ''
+experiment_id: '958004398437972347'
+lifecycle_stage: deleted
+run_id: e470aa6c43144bc588f38d1d2c74948d
+run_name: aged-grouse-509
+run_uuid: e470aa6c43144bc588f38d1d2c74948d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973798384
+status: 3
+tags: []
+user_id: bomeyering

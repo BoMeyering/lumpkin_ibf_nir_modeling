@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/5732e75ae8da4dba99f5226c0c25ecde/artifacts
+end_time: 1741980276849
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 5732e75ae8da4dba99f5226c0c25ecde
+run_name: luxuriant-crab-881
+run_uuid: 5732e75ae8da4dba99f5226c0c25ecde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980273938
+status: 3
+tags: []
+user_id: bomeyering

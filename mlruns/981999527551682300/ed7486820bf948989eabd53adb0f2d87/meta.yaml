@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/ed7486820bf948989eabd53adb0f2d87/artifacts
+deleted_time: 1741717885248
+end_time: 1741717309649
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: deleted
+run_id: ed7486820bf948989eabd53adb0f2d87
+run_name: funny-eel-321
+run_uuid: ed7486820bf948989eabd53adb0f2d87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717306615
+status: 3
+tags: []
+user_id: bomeyering

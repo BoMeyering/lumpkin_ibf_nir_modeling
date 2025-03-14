@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/fe8a4583249048348413644588951670/artifacts
+deleted_time: 1741720058177
+end_time: 1741718629972
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: fe8a4583249048348413644588951670
+run_name: casual-fawn-176
+run_uuid: fe8a4583249048348413644588951670
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718627798
+status: 4
+tags: []
+user_id: bomeyering

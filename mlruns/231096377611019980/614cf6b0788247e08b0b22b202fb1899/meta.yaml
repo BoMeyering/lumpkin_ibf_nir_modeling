@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/614cf6b0788247e08b0b22b202fb1899/artifacts
+deleted_time: 1741794263599
+end_time: 1741720963508
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 614cf6b0788247e08b0b22b202fb1899
+run_name: salty-pug-718
+run_uuid: 614cf6b0788247e08b0b22b202fb1899
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720960398
+status: 3
+tags: []
+user_id: bomeyering

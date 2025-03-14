@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/7859cf4fe37840f5b0b6e0a5ffe2b737/artifacts
+deleted_time: 1741975985411
+end_time: 1741973231378
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: 7859cf4fe37840f5b0b6e0a5ffe2b737
+run_name: delicate-mole-762
+run_uuid: 7859cf4fe37840f5b0b6e0a5ffe2b737
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973228002
+status: 3
+tags: []
+user_id: bomeyering

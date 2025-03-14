@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/12ba80847ae94c59b59fa753a11b0400/artifacts
+end_time: 1741980414128
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: 12ba80847ae94c59b59fa753a11b0400
+run_name: sassy-trout-811
+run_uuid: 12ba80847ae94c59b59fa753a11b0400
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980410664
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/95d655cca35f429fbb8feebe400b538a/artifacts
+deleted_time: 1741720951010
+end_time: 1741720859497
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 95d655cca35f429fbb8feebe400b538a
+run_name: spiffy-koi-891
+run_uuid: 95d655cca35f429fbb8feebe400b538a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720856342
+status: 3
+tags: []
+user_id: bomeyering

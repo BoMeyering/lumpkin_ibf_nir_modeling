@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/1817175d174943b3a32110ff44d7700c/artifacts
+end_time: 1741980535515
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 1817175d174943b3a32110ff44d7700c
+run_name: abrasive-snipe-506
+run_uuid: 1817175d174943b3a32110ff44d7700c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980532544
+status: 3
+tags: []
+user_id: bomeyering

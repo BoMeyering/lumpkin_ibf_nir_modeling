@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/ee75752e30ac431586fdecaeb3425989/artifacts
+end_time: 1741980195856
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: ee75752e30ac431586fdecaeb3425989
+run_name: victorious-stork-112
+run_uuid: ee75752e30ac431586fdecaeb3425989
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980190548
+status: 4
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/5d4123b09c414d37960605d420f84faf/artifacts
+deleted_time: 1741717885234
+end_time: 1741717732777
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: 5d4123b09c414d37960605d420f84faf
+run_name: gifted-panda-146
+run_uuid: 5d4123b09c414d37960605d420f84faf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717729854
+status: 3
+tags: []
+user_id: bomeyering

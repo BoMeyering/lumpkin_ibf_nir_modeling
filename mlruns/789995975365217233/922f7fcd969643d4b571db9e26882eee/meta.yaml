@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/922f7fcd969643d4b571db9e26882eee/artifacts
+end_time: 1741993853601
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 922f7fcd969643d4b571db9e26882eee
+run_name: inquisitive-bug-405
+run_uuid: 922f7fcd969643d4b571db9e26882eee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993850116
+status: 3
+tags: []
+user_id: bomeyering

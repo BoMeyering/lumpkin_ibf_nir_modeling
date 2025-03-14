@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/2aeba33f06024bc0ad21940e7e2c979e/artifacts
+end_time: 1741980529220
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 2aeba33f06024bc0ad21940e7e2c979e
+run_name: invincible-shad-899
+run_uuid: 2aeba33f06024bc0ad21940e7e2c979e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980526153
+status: 3
+tags: []
+user_id: bomeyering

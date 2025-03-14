@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/af3ffff04f124958a136f108f8f9380b/artifacts
+deleted_time: 1741717885254
+end_time: 1741717297315
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: af3ffff04f124958a136f108f8f9380b
+run_name: clean-asp-204
+run_uuid: af3ffff04f124958a136f108f8f9380b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717294251
+status: 3
+tags: []
+user_id: bomeyering

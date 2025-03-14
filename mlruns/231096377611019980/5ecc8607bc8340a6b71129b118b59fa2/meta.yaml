@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/5ecc8607bc8340a6b71129b118b59fa2/artifacts
+end_time: 1741980519606
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: 5ecc8607bc8340a6b71129b118b59fa2
+run_name: calm-mare-649
+run_uuid: 5ecc8607bc8340a6b71129b118b59fa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980516492
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/db7b7e8610fc4c3b81ffdf4645d68845/artifacts
+end_time: 1741993749429
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: db7b7e8610fc4c3b81ffdf4645d68845
+run_name: invincible-bat-392
+run_uuid: db7b7e8610fc4c3b81ffdf4645d68845
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993745924
+status: 3
+tags: []
+user_id: bomeyering

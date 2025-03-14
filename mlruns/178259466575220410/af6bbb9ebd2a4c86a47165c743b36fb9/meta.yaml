@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/af6bbb9ebd2a4c86a47165c743b36fb9/artifacts
+deleted_time: 1741975985421
+end_time: 1741794317623
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: af6bbb9ebd2a4c86a47165c743b36fb9
+run_name: puzzled-moose-577
+run_uuid: af6bbb9ebd2a4c86a47165c743b36fb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794314504
+status: 3
+tags: []
+user_id: bomeyering

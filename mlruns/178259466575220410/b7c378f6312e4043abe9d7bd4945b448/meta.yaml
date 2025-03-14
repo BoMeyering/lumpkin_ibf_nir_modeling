@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/b7c378f6312e4043abe9d7bd4945b448/artifacts
+end_time: 1741993850076
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: active
+run_id: b7c378f6312e4043abe9d7bd4945b448
+run_name: rebellious-hen-185
+run_uuid: b7c378f6312e4043abe9d7bd4945b448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993846521
+status: 3
+tags: []
+user_id: bomeyering

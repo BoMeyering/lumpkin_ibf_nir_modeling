@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/e8efc945c9f1424c93ab5149d364be9b/artifacts
+deleted_time: 1741794263587
+end_time: 1741720989374
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: e8efc945c9f1424c93ab5149d364be9b
+run_name: salty-kite-170
+run_uuid: e8efc945c9f1424c93ab5149d364be9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720985990
+status: 3
+tags: []
+user_id: bomeyering

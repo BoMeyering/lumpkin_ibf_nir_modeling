@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/463d5bef5f7b429d94be111c9eb315cb/artifacts
+deleted_time: 1741717885233
+end_time: 1741717738856
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 463d5bef5f7b429d94be111c9eb315cb
+run_name: redolent-smelt-80
+run_uuid: 463d5bef5f7b429d94be111c9eb315cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717735817
+status: 3
+tags: []
+user_id: bomeyering

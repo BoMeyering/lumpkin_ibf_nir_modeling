@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/6f82154130154c4c9e531c00e8cefbc8/artifacts
+deleted_time: 1741717885253
+end_time: 1741717300372
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 6f82154130154c4c9e531c00e8cefbc8
+run_name: enthused-stoat-528
+run_uuid: 6f82154130154c4c9e531c00e8cefbc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717297327
+status: 3
+tags: []
+user_id: bomeyering

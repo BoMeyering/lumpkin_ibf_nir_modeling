@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/d36d59cbf7d24420a6258a429af27bff/artifacts
+deleted_time: 1741975985411
+end_time: 1741973227982
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: d36d59cbf7d24420a6258a429af27bff
+run_name: charming-owl-482
+run_uuid: d36d59cbf7d24420a6258a429af27bff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973224334
+status: 3
+tags: []
+user_id: bomeyering

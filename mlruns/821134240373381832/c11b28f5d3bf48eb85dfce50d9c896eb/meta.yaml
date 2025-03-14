@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/c11b28f5d3bf48eb85dfce50d9c896eb/artifacts
+deleted_time: 1741717885229
+end_time: 1741717751114
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: c11b28f5d3bf48eb85dfce50d9c896eb
+run_name: luminous-ram-53
+run_uuid: c11b28f5d3bf48eb85dfce50d9c896eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717748109
+status: 3
+tags: []
+user_id: bomeyering

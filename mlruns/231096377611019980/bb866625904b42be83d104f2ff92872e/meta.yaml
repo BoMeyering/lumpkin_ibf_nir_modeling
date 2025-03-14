@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/bb866625904b42be83d104f2ff92872e/artifacts
+end_time: 1741993764353
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: bb866625904b42be83d104f2ff92872e
+run_name: upbeat-lynx-695
+run_uuid: bb866625904b42be83d104f2ff92872e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993760774
+status: 3
+tags: []
+user_id: bomeyering

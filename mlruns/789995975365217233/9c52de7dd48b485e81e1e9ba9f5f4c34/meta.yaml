@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/9c52de7dd48b485e81e1e9ba9f5f4c34/artifacts
+deleted_time: 1741717996550
+end_time: 1741717914966
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 9c52de7dd48b485e81e1e9ba9f5f4c34
+run_name: unleashed-skunk-9
+run_uuid: 9c52de7dd48b485e81e1e9ba9f5f4c34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717912035
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/7b17fc2439024334ab2c0cd0c5d3c67c/artifacts
+deleted_time: 1741794263588
+end_time: 1741720985971
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: 7b17fc2439024334ab2c0cd0c5d3c67c
+run_name: big-steed-896
+run_uuid: 7b17fc2439024334ab2c0cd0c5d3c67c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720982764
+status: 3
+tags: []
+user_id: bomeyering

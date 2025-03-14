@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/a91a5924dbff4958b074e4e0f4f132ca/artifacts
+deleted_time: 1741975985409
+end_time: 1741973234781
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: a91a5924dbff4958b074e4e0f4f132ca
+run_name: defiant-fowl-976
+run_uuid: a91a5924dbff4958b074e4e0f4f132ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973231401
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/75547a1c7269414fa9eb76b00143243f/artifacts
+end_time: 1741993735353
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: active
+run_id: 75547a1c7269414fa9eb76b00143243f
+run_name: rumbling-conch-742
+run_uuid: 75547a1c7269414fa9eb76b00143243f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993732240
+status: 3
+tags: []
+user_id: bomeyering

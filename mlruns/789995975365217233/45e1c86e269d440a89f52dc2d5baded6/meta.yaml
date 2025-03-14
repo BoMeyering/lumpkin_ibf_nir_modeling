@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/45e1c86e269d440a89f52dc2d5baded6/artifacts
+end_time: 1741977219718
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 45e1c86e269d440a89f52dc2d5baded6
+run_name: judicious-sloth-213
+run_uuid: 45e1c86e269d440a89f52dc2d5baded6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977216170
+status: 3
+tags: []
+user_id: bomeyering

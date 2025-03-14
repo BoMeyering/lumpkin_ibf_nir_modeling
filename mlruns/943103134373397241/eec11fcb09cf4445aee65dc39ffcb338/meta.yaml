@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/eec11fcb09cf4445aee65dc39ffcb338/artifacts
+deleted_time: 1741720058186
+end_time: 1741718100575
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: eec11fcb09cf4445aee65dc39ffcb338
+run_name: abundant-wolf-220
+run_uuid: eec11fcb09cf4445aee65dc39ffcb338
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718097545
+status: 3
+tags: []
+user_id: bomeyering

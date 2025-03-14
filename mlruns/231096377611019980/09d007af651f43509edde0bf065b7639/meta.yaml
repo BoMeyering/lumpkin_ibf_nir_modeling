@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/09d007af651f43509edde0bf065b7639/artifacts
+deleted_time: 1741720058174
+end_time: 1741719417342
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 09d007af651f43509edde0bf065b7639
+run_name: salty-goat-221
+run_uuid: 09d007af651f43509edde0bf065b7639
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741719417330
+status: 4
+tags: []
+user_id: bomeyering

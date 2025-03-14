@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/eee806263e8a46ff91d31a6134588e6f/artifacts
+deleted_time: 1741720951013
+end_time: 1741720853191
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: eee806263e8a46ff91d31a6134588e6f
+run_name: gaudy-crane-336
+run_uuid: eee806263e8a46ff91d31a6134588e6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720850089
+status: 3
+tags: []
+user_id: bomeyering

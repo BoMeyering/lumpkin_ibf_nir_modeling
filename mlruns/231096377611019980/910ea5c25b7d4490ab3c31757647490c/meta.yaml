@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/910ea5c25b7d4490ab3c31757647490c/artifacts
+deleted_time: 1741973363381
+end_time: 1741973140351
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 910ea5c25b7d4490ab3c31757647490c
+run_name: wise-fish-145
+run_uuid: 910ea5c25b7d4490ab3c31757647490c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973139579
+status: 4
+tags: []
+user_id: bomeyering

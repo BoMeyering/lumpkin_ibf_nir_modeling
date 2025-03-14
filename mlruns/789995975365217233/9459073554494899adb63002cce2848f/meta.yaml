@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/9459073554494899adb63002cce2848f/artifacts
+deleted_time: 1741720058159
+end_time: 1741720042293
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 9459073554494899adb63002cce2848f
+run_name: vaunted-chimp-576
+run_uuid: 9459073554494899adb63002cce2848f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720039269
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/cc39d7e5c5834447b3535f226d462565/artifacts
+deleted_time: 1741717885265
+end_time: 1741717130677
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: cc39d7e5c5834447b3535f226d462565
+run_name: burly-goose-819
+run_uuid: cc39d7e5c5834447b3535f226d462565
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717127639
+status: 3
+tags: []
+user_id: bomeyering

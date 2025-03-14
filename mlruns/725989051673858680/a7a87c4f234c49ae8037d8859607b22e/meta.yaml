@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/a7a87c4f234c49ae8037d8859607b22e/artifacts
+end_time: 1741980261908
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: a7a87c4f234c49ae8037d8859607b22e
+run_name: gifted-hare-414
+run_uuid: a7a87c4f234c49ae8037d8859607b22e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980259002
+status: 3
+tags: []
+user_id: bomeyering

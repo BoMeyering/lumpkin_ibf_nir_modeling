@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/45c0918bac4c4257b1165549154a95b1/artifacts
+end_time: 1741980253009
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 45c0918bac4c4257b1165549154a95b1
+run_name: lyrical-cat-914
+run_uuid: 45c0918bac4c4257b1165549154a95b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980250099
+status: 3
+tags: []
+user_id: bomeyering

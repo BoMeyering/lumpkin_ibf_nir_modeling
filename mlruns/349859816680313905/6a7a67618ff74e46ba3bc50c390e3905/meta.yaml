@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/6a7a67618ff74e46ba3bc50c390e3905/artifacts
+end_time: 1741980547726
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: active
+run_id: 6a7a67618ff74e46ba3bc50c390e3905
+run_name: glamorous-snipe-659
+run_uuid: 6a7a67618ff74e46ba3bc50c390e3905
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980544627
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/280b4a14d13646aabdaf6a36d2219462/artifacts
+end_time: 1741993785287
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: 280b4a14d13646aabdaf6a36d2219462
+run_name: upbeat-grub-47
+run_uuid: 280b4a14d13646aabdaf6a36d2219462
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993782153
+status: 4
+tags: []
+user_id: bomeyering

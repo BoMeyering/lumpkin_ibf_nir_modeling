@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/8751453567aa43d6a90a26db076a17bc/artifacts
+end_time: 1741979985578
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: active
+run_id: 8751453567aa43d6a90a26db076a17bc
+run_name: carefree-dolphin-280
+run_uuid: 8751453567aa43d6a90a26db076a17bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741979980570
+status: 4
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/f23fb9871b07411caf30b8c342675090/artifacts
+deleted_time: 1741720058156
+end_time: 1741720052034
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: f23fb9871b07411caf30b8c342675090
+run_name: caring-ram-486
+run_uuid: f23fb9871b07411caf30b8c342675090
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720048729
+status: 3
+tags: []
+user_id: bomeyering

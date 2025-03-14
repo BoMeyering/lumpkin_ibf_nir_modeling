@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/4557fd95e82c41f0ba83ccedfc93656d/artifacts
+deleted_time: 1741718085448
+end_time: 1741718054469
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 4557fd95e82c41f0ba83ccedfc93656d
+run_name: painted-ox-628
+run_uuid: 4557fd95e82c41f0ba83ccedfc93656d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718051433
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/87f36ee80d9e489784e0c2beeb80bb08/artifacts
+end_time: 1741977226234
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: 87f36ee80d9e489784e0c2beeb80bb08
+run_name: skittish-fly-958
+run_uuid: 87f36ee80d9e489784e0c2beeb80bb08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977223100
+status: 3
+tags: []
+user_id: bomeyering

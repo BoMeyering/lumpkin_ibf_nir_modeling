@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/5026c4fd285f492d95f14dc64e757761/artifacts
+deleted_time: 1741720950999
+end_time: 1741720878982
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: deleted
+run_id: 5026c4fd285f492d95f14dc64e757761
+run_name: monumental-koi-811
+run_uuid: 5026c4fd285f492d95f14dc64e757761
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720875818
+status: 3
+tags: []
+user_id: bomeyering

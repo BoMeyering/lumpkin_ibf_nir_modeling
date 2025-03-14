@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/3f2886e2f8b34960936f4dee3aeaaef1/artifacts
+deleted_time: 1741975985398
+end_time: 1741973253150
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: 3f2886e2f8b34960936f4dee3aeaaef1
+run_name: gregarious-crab-138
+run_uuid: 3f2886e2f8b34960936f4dee3aeaaef1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973249126
+status: 3
+tags: []
+user_id: bomeyering

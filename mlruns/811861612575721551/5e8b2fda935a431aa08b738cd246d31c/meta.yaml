@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/5e8b2fda935a431aa08b738cd246d31c/artifacts
+deleted_time: 1741720058161
+end_time: 1741720036207
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 5e8b2fda935a431aa08b738cd246d31c
+run_name: mercurial-tern-548
+run_uuid: 5e8b2fda935a431aa08b738cd246d31c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720032998
+status: 3
+tags: []
+user_id: bomeyering

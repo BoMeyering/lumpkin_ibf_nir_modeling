@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/923d87abdab440f293ee7a09663e54f1/artifacts
+end_time: 1741979530921
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: 923d87abdab440f293ee7a09663e54f1
+run_name: victorious-rat-480
+run_uuid: 923d87abdab440f293ee7a09663e54f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741979526332
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/442e26b70031497eb15ec03806e3f37d/artifacts
+end_time: 1741993775037
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 442e26b70031497eb15ec03806e3f37d
+run_name: gentle-cat-7
+run_uuid: 442e26b70031497eb15ec03806e3f37d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993771431
+status: 3
+tags: []
+user_id: bomeyering

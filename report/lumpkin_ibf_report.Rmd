@@ -1,0 +1,243 @@
+---
+title: "Lumpkin Foundation - Illinois Bundleflower Final Report"
+author: "Spencer Barriball, Bo Meyering, Brandon Schlautman"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r library import, echo=FALSE, results='hide', include=FALSE}
+library(tidyverse, warn.conflicts=FALSE, quietly=TRUE)
+library(lme4, warn.conflicts=FALSE, quietly=TRUE)
+# library(sommer, warn.conflicts=FALSE, quietly=TRUE)
+library(emmeans, warn.conflicts = FALSE, quietly = TRUE)
+library(data.table, warn.conflicts=FALSE, quietly=TRUE)
+library(knitr)
+library(kableExtra)
+library(multcomp)
+library(lmerTest)
+```
+
+```{r Data Import and Cleaning, include=FALSE, echo=FALSE}
+# Read in trial layout and fix sample_name
+trial_layout <- fread('../data/trial_layout_metadata.csv') %>% 
+        mutate(sample_name = paste('LMP', plots, sep='-')) %>% 
+        filter(!trts %in% c('HI-GEST 660', 'Kura Clover', 'Sainfoin')) %>% 
+        dplyr::select(-V1) %>% 
+        rename("sample_id" = "trts")
+
+# Grab only unique sample_ids
+sample_ids <- data.frame(sample_id = unique(trial_layout$sample_id))
+# Read in germination data and rearrange
+germination_data <- fread('../data/lumpkin_ibf_germination_test.csv') %>% 
+        mutate(sample_id = factor(sample_id)) %>% 
+        arrange(desc(germination_pct), hard_pct) %>% 
+        right_join(sample_ids)
+
+# Read in forage yield data, join to trial layout
+yield_data <- fread('../data/lumpkin_ibf_forage_yield.csv') %>% 
+        left_join(trial_layout, by='sample_name') %>% 
+        dplyr::select(sample_name, sample_id, block, rep, row, column, forage_yield_kg_ha)
+
+# Read in the wet chemistry results
+wetchem <- fread('../data/lumpkin_ibf_wet_chemistry_results.csv')
+
+# Pivot wetchem longer
+wetchem_longer <- wetchem %>% 
+        dplyr::select(-c(moisture_pct, dry_matter_pct)) %>% 
+        pivot_longer(cols = c(crude_protein_pct:nel_adf), names_to='test', values_to='results')
+
+# Summarize the yield data
+yield_summaries <- yield_data %>% 
+        group_by(sample_id) %>% 
+        summarize(mean_yield = mean(forage_yield_kg_ha, na.rm=TRUE),
+                  sd_yield = sd(forage_yield_kg_ha, na.rm=TRUE),
+                  n = n(),
+                  se_yield = sd_yield / sqrt(n))
+
+# Pivot germination_data longer
+germination_long <- germination_data %>% 
+        pivot_longer(cols = c(germination_pct, hard_pct), names_to = 'key', values_to='values')
+
+```
+
+# Introduction and Summary of Work
+
+# Materials and Methods
+
+## Accession Germination Test
+
+## Field Trial Design
+
+## Harvesting
+
+## Sample Processing
+
+## NIR Spectra Sampling
+Plant tissues from harvet were ground and filtered using a 1mm sieve .... and scanned using the NeoSpectra NIR handheld scanner ... FILL THIS OUT
+
+## Wet Chemistry
+A total of 75 samples out of the entire population were selected for targeted wet chemistry analysis. Samples were selected out of the entire population using the Kennard Stone algorithm to select samples with the greatest Euclidean distance from each other, ensuring that the samples reflected the availble NIR variance in the population. Samples were processed by xyz method, dried and sent to ABC labs for targeted wet chemistry analysis.. FILL THIS OUT
+
+
+## NIR Modeling
+A total of ten wet chemistry metrics were selected for modeling. These included forage moisture content (%), forage dry matter content (%), ADF (units), NDF (units), relative feed value (units), total digestible nutrients (units), net energy gain (Mcal/cwt), net energy maintenance (Mcal/cwt), net energy lactation (Mcal/cwt), and forage yield (kg/Ha) all calculated on a dry matter basis. Spectra were presented as the percent reflectance per wavelength measured. Low quality spectra, i.e. low variance among the response values for all wavelengths, were filtered out of the dataset programatically. All spectra were then linearly resampled by wavelength to ensure equal wavelength intervals between each response value. The spectra were smoothed and detrended using a Savitsky-Golay filter by fitting a $5^{th}$ order polynomial over a window length of 15 frames and taking the second derivative. Standard mean subtraction scaling was applied per wavelength, but were not scaled by the colun variance. Training and testing populations (70% and 30%, respectively) were selected from the calibration samples by using the Kennard-Stone selection algorithm. A partial least squares regression (PLSR) model was fit to the data for each of the target variables, allowing the number of model components to vary from 1 to 16 total components. Root Mean Squared Error (RMSE) defined below was used to evaluate each models performance on the training and testing populations. 
+$$
+RMSE = \sqrt{\frac{\sum^N_{i=1}(y_i - \hat{y_i})^2}{N}}
+$$
+where $y_i$ represents the ground truth target value of the $i^{th}$ sample and $\hat{y_i}$ represents the model prediction for that sample. The model with the lowest testing population RMSE was selected as the final model.
+
+## BLUE/BLUP
+
+## Selection Index
+
+# Results
+## Germination Results
+
+```{r Germination results plot, fig.width=10}
+
+germination_plot <- ggplot(germination_long, aes(x=reorder(sample_id, -total_viable_pct), y=values, fill=key))+
+        geom_bar(stat = 'identity', position='stack', width=.9)+
+        theme_light()+
+        scale_fill_viridis_d(option='D', begin=0.2, end=0.8)+
+        labs(x = 'Accession', y='Total Viability', fill="Germination")+
+        ylim(min=0, max=100)+
+        theme(axis.text.x = element_blank(),
+              axis.ticks.x = element_blank(),
+              panel.grid.major.x = element_blank(),
+              panel.grid.minor.x = element_blank())
+
+germination_plot
+
+        
+
+```
+
+
+
+## Yield Data
+```{r}
+trial_layout <- fread('../data/trial_layout_metadata.csv') %>% 
+        mutate(sample_name = paste('LMP', plots, sep='-')) %>% 
+        dplyr::select(-V1)
+yield_data <- fread('../data/lumpkin_ibf_forage_yield.csv') %>% 
+        left_join(trial_layout, by='sample_name') %>% 
+        dplyr::select(sample_name, trts, block, rep, row, column, forage_yield_kg_ha) %>% 
+        rename('sample_id' = 'trts')
+
+yield_summaries <- yield_data %>% 
+        group_by(sample_id) %>% 
+        summarize(mean_yield = mean(forage_yield_kg_ha, na.rm=TRUE),
+                  sd_yield = sd(forage_yield_kg_ha, na.rm=TRUE),
+                  n = n(),
+                  se_yield = sd_yield / sqrt(n))
+
+yield_mm <- lmer(forage_yield_kg_ha ~ sample_id + (1|block), data=yield_data, )
+anova(yield_mm)
+summary(yield_mm)
+```
+
+
+## NIR Modeling
+
+```{r Model Results Import, echo=FALSE}
+model_results = fread("../model_output/runs.csv") %>% 
+        mutate(`Test RMSE` = round(`Test RMSE`, 3),
+               `Train RMSE` = round(`Train RMSE`, 3))
+
+kable(model_results, align = 'c')
+```
+
+```{r Yield boxplot, echo=FALSE, include=TRUE}
+# Descending yield boxplot
+median_values = yield_data %>% 
+        group_by(sample_id) %>% 
+        summarize(median_yield = median(forage_yield_kg_ha))
+
+yield_data <- yield_data %>% 
+        left_join(median_values)
+
+yield_plot = ggplot(yield_data, aes(x=reorder(sample_id, -forage_yield_kg_ha, FUN=median), y=forage_yield_kg_ha, fill=median_yield))+
+        geom_boxplot()+
+        scale_fill_viridis_c(option='D')+
+        geom_hline(yintercept=mean(yield_data$forage_yield_kg_ha), linewidth=1, linetype=4)+
+        theme_light()+
+        labs(x = 'Accession', y='Forage Yield (kg/Ha)', fill = 'Forage Yield')+
+        theme(axis.text.x = element_blank(),
+              axis.ticks.x = element_blank(),
+              panel.grid.major.x = element_blank(),
+              panel.grid.minor.x = element_blank())
+
+yield_plot
+```
+
+```{r}
+
+ggplot(wetchem_longer, aes(x=results, group=test, fill=test))+
+        geom_density()+
+        facet_wrap(~test, scales = 'free', nrow=2)
+
+crude_protein_plot = ggplot(wetchem, aes(x=reorder(sample_name, -crude_protein_pct, FUN=median), y=crude_protein_pct))+
+        geom_boxplot()+
+        scale_fill_viridis_c(option='D')+
+        # geom_hline(yintercept=mean(yield_data$forage_yield_kg_ha), linewidth=1, linetype=4)+
+        theme_light()+
+        labs(x = 'Accession', y='Forage Yield (kg/Ha)', fill = 'Forage Yield')+
+        theme(axis.text.x = element_blank(),
+              axis.ticks.x = element_blank(),
+              panel.grid.major.x = element_blank(),
+              panel.grid.minor.x = element_blank())
+
+crude_protein_plot
+
+```
+
+```{r}
+ibf_predictions <- list("1mm" = NULL, 
+                        "10mm" = NULL)
+
+file_list = dir('../model_output')
+for (file_name in file_list) {
+        if (startsWith(file_name, 'ibf')) {
+                # Extract the forage sample size
+                forage_size = str_extract(file_name, "(?<=_)\\d+mm")
+                
+                # Extract the forage trait
+                trait = str_extract(file_name, "(?<=ibf_).*?(?=_\\d+mm)")
+                
+                file_path = file.path('../model_output', file_name)
+                predictions = fread(file_path)
+                # print(predictions)
+                predictions <- predictions %>% 
+                        rename(!!trait := 'value') # Rename the value column
+                
+                if (is.null(ibf_predictions[[forage_size]])) {
+                        ibf_predictions[[forage_size]] = predictions
+                } else {
+                        ibf_predictions[[forage_size]] = ibf_predictions[[forage_size]] %>% 
+                                left_join(predictions)
+                }
+                
+                
+        }        
+}
+
+ibf_1mm_summary <- ibf_predictions[['1mm']] %>% 
+        group_by(sample_name) %>% 
+        summarize_all(mean) %>% 
+        dplyr::select(-rep)
+
+ibf_10mm_summary <- ibf_predictions[['10mm']] %>% 
+        group_by(sample_name) %>% 
+        summarize_all(mean) %>% 
+        dplyr::select(-rep)
+
+write_csv(ibf_1mm_summary, 'ibf_1mm_predictions.csv')
+write_csv(ibf_10mm_summary, 'ibf_10mm_predictions.csv')
+```
+

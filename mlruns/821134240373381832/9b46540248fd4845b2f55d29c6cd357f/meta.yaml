@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/9b46540248fd4845b2f55d29c6cd357f/artifacts
+end_time: 1741993860729
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: 9b46540248fd4845b2f55d29c6cd357f
+run_name: smiling-shrimp-612
+run_uuid: 9b46540248fd4845b2f55d29c6cd357f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993857282
+status: 3
+tags: []
+user_id: bomeyering

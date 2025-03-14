@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/a26223e9f51f4cad85de3219a1e52410/artifacts
+end_time: 1741980395148
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: active
+run_id: a26223e9f51f4cad85de3219a1e52410
+run_name: resilient-shark-649
+run_uuid: a26223e9f51f4cad85de3219a1e52410
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980392016
+status: 3
+tags: []
+user_id: bomeyering

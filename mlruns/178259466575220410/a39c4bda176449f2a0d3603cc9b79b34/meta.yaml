@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/a39c4bda176449f2a0d3603cc9b79b34/artifacts
+deleted_time: 1741717885251
+end_time: 1741717303498
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: a39c4bda176449f2a0d3603cc9b79b34
+run_name: monumental-turtle-83
+run_uuid: a39c4bda176449f2a0d3603cc9b79b34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717300382
+status: 3
+tags: []
+user_id: bomeyering

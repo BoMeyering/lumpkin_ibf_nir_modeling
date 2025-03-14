@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/958004398437972347/840c971a256a47a79e056e161782d76e/artifacts
+deleted_time: 1741794263584
+end_time: 1741726041513
+entry_point_name: ''
+experiment_id: '958004398437972347'
+lifecycle_stage: deleted
+run_id: 840c971a256a47a79e056e161782d76e
+run_name: silent-newt-416
+run_uuid: 840c971a256a47a79e056e161782d76e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741726041501
+status: 4
+tags: []
+user_id: bomeyering

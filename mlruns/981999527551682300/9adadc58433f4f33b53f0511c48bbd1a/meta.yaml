@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/9adadc58433f4f33b53f0511c48bbd1a/artifacts
+end_time: 1741980285925
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: 9adadc58433f4f33b53f0511c48bbd1a
+run_name: capable-shrew-174
+run_uuid: 9adadc58433f4f33b53f0511c48bbd1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980282747
+status: 3
+tags: []
+user_id: bomeyering

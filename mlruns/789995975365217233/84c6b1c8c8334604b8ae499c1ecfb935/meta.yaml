@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/84c6b1c8c8334604b8ae499c1ecfb935/artifacts
+deleted_time: 1741720951006
+end_time: 1741720866085
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 84c6b1c8c8334604b8ae499c1ecfb935
+run_name: dazzling-rook-438
+run_uuid: 84c6b1c8c8334604b8ae499c1ecfb935
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720862671
+status: 3
+tags: []
+user_id: bomeyering

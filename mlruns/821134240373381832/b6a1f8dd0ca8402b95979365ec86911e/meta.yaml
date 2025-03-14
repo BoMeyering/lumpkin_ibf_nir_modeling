@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/b6a1f8dd0ca8402b95979365ec86911e/artifacts
+deleted_time: 1741717996548
+end_time: 1741717920892
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: b6a1f8dd0ca8402b95979365ec86911e
+run_name: amusing-lynx-879
+run_uuid: b6a1f8dd0ca8402b95979365ec86911e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717917927
+status: 3
+tags: []
+user_id: bomeyering

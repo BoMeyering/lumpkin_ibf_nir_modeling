@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/af6a31f7da4a427fbbce5c89d561b714/artifacts
+deleted_time: 1741720058178
+end_time: 1741718627778
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: af6a31f7da4a427fbbce5c89d561b714
+run_name: mysterious-cub-502
+run_uuid: af6a31f7da4a427fbbce5c89d561b714
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718624712
+status: 3
+tags: []
+user_id: bomeyering

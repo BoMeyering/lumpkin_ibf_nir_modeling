@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/e7734e2662b5434f86335eee3e634932/artifacts
+end_time: 1741977196358
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: e7734e2662b5434f86335eee3e634932
+run_name: trusting-perch-67
+run_uuid: e7734e2662b5434f86335eee3e634932
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977193261
+status: 3
+tags: []
+user_id: bomeyering

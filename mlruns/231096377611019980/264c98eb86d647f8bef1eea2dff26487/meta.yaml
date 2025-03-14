@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/264c98eb86d647f8bef1eea2dff26487/artifacts
+deleted_time: 1741717885236
+end_time: 1741717729843
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 264c98eb86d647f8bef1eea2dff26487
+run_name: handsome-shad-906
+run_uuid: 264c98eb86d647f8bef1eea2dff26487
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717726925
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/cdfc228467fb4af48828c41d6c64e6ba/artifacts
+end_time: 1741977180727
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: cdfc228467fb4af48828c41d6c64e6ba
+run_name: judicious-stoat-181
+run_uuid: cdfc228467fb4af48828c41d6c64e6ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977177870
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/e38f4e710258470ba830b7faa163b064/artifacts
+end_time: 1741980282723
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: e38f4e710258470ba830b7faa163b064
+run_name: colorful-rat-159
+run_uuid: e38f4e710258470ba830b7faa163b064
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980279768
+status: 3
+tags: []
+user_id: bomeyering

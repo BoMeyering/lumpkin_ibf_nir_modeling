@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/060d5abc56314b96a73915f5048d86f6/artifacts
+end_time: 1741993838443
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: 060d5abc56314b96a73915f5048d86f6
+run_name: bittersweet-ram-59
+run_uuid: 060d5abc56314b96a73915f5048d86f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993834967
+status: 3
+tags: []
+user_id: bomeyering

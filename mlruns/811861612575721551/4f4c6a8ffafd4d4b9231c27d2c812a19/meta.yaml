@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/4f4c6a8ffafd4d4b9231c27d2c812a19/artifacts
+deleted_time: 1741794263594
+end_time: 1741720972979
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 4f4c6a8ffafd4d4b9231c27d2c812a19
+run_name: bedecked-wren-359
+run_uuid: 4f4c6a8ffafd4d4b9231c27d2c812a19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720969725
+status: 3
+tags: []
+user_id: bomeyering

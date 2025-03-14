@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/890d960aee5448e8ba4e050c3200a688/artifacts
+deleted_time: 1741718085441
+end_time: 1741718066637
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: deleted
+run_id: 890d960aee5448e8ba4e050c3200a688
+run_name: victorious-goat-496
+run_uuid: 890d960aee5448e8ba4e050c3200a688
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718063599
+status: 3
+tags: []
+user_id: bomeyering

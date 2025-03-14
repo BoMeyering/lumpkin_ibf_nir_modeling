@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/534da0dc0686469d8a3f007cea6c7b59/artifacts
+end_time: 1741980410637
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: 534da0dc0686469d8a3f007cea6c7b59
+run_name: melodic-mink-464
+run_uuid: 534da0dc0686469d8a3f007cea6c7b59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980407559
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/a519286edfa34259b8504ecb10f1ec7f/artifacts
+end_time: 1741993732215
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: a519286edfa34259b8504ecb10f1ec7f
+run_name: exultant-bee-557
+run_uuid: a519286edfa34259b8504ecb10f1ec7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993728974
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/844ea9d0a21740e48bd97ad9af2f74ec/artifacts
+deleted_time: 1741717885270
+end_time: 1741717118534
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: 844ea9d0a21740e48bd97ad9af2f74ec
+run_name: resilient-stoat-425
+run_uuid: 844ea9d0a21740e48bd97ad9af2f74ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717115540
+status: 3
+tags: []
+user_id: bomeyering

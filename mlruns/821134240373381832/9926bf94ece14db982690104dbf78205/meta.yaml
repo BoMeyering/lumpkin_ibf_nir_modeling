@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/9926bf94ece14db982690104dbf78205/artifacts
+deleted_time: 1741975985399
+end_time: 1741973249105
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: 9926bf94ece14db982690104dbf78205
+run_name: mercurial-calf-82
+run_uuid: 9926bf94ece14db982690104dbf78205
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741973245543
+status: 3
+tags: []
+user_id: bomeyering

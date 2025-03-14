@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/0791f22119594f129e70918521d18332/artifacts
+end_time: 1741980503907
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: 0791f22119594f129e70918521d18332
+run_name: nervous-rat-544
+run_uuid: 0791f22119594f129e70918521d18332
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980500808
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/af3521eecd114e9b8267d6fc8261e868/artifacts
+end_time: 1741980494734
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: active
+run_id: af3521eecd114e9b8267d6fc8261e868
+run_name: bustling-snipe-515
+run_uuid: af3521eecd114e9b8267d6fc8261e868
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980491755
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/14fa39a4bac640e294f1f5fd6a43938f/artifacts
+end_time: 1741980497758
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 14fa39a4bac640e294f1f5fd6a43938f
+run_name: fortunate-slug-808
+run_uuid: 14fa39a4bac640e294f1f5fd6a43938f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980494767
+status: 3
+tags: []
+user_id: bomeyering

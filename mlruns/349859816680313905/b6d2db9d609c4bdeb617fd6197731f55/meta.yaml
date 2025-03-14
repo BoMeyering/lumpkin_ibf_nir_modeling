@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/b6d2db9d609c4bdeb617fd6197731f55/artifacts
+end_time: 1741980050058
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: active
+run_id: b6d2db9d609c4bdeb617fd6197731f55
+run_name: bald-squid-378
+run_uuid: b6d2db9d609c4bdeb617fd6197731f55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980049480
+status: 4
+tags: []
+user_id: bomeyering

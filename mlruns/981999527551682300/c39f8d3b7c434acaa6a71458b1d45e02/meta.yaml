@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/c39f8d3b7c434acaa6a71458b1d45e02/artifacts
+deleted_time: 1741794263589
+end_time: 1741720982743
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: deleted
+run_id: c39f8d3b7c434acaa6a71458b1d45e02
+run_name: thundering-trout-972
+run_uuid: c39f8d3b7c434acaa6a71458b1d45e02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720979594
+status: 3
+tags: []
+user_id: bomeyering

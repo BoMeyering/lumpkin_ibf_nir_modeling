@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/df72b2e2578946938caeb210ce1d6a9e/artifacts
+deleted_time: 1741720058156
+end_time: 1741720048711
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: df72b2e2578946938caeb210ce1d6a9e
+run_name: enthused-smelt-52
+run_uuid: df72b2e2578946938caeb210ce1d6a9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720045552
+status: 3
+tags: []
+user_id: bomeyering

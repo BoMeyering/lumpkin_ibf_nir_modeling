@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/54ea881352954c338843f71893621a84/artifacts
+deleted_time: 1741717996557
+end_time: 1741717909010
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: deleted
+run_id: 54ea881352954c338843f71893621a84
+run_name: charming-dove-882
+run_uuid: 54ea881352954c338843f71893621a84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717905805
+status: 3
+tags: []
+user_id: bomeyering

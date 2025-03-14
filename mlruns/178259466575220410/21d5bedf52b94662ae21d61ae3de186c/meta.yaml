@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/21d5bedf52b94662ae21d61ae3de186c/artifacts
+deleted_time: 1741720831996
+end_time: 1741720136155
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: 21d5bedf52b94662ae21d61ae3de186c
+run_name: useful-skunk-105
+run_uuid: 21d5bedf52b94662ae21d61ae3de186c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720133065
+status: 3
+tags: []
+user_id: bomeyering

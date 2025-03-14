@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/79d5e2cfea0549ceb6e44fde415b5a40/artifacts
+deleted_time: 1741717996547
+end_time: 1741717923833
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: 79d5e2cfea0549ceb6e44fde415b5a40
+run_name: thoughtful-pig-724
+run_uuid: 79d5e2cfea0549ceb6e44fde415b5a40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717920909
+status: 3
+tags: []
+user_id: bomeyering

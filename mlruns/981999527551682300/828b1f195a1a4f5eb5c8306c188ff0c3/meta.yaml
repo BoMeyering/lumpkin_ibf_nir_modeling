@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/828b1f195a1a4f5eb5c8306c188ff0c3/artifacts
+end_time: 1741993857225
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: 828b1f195a1a4f5eb5c8306c188ff0c3
+run_name: luxuriant-skunk-247
+run_uuid: 828b1f195a1a4f5eb5c8306c188ff0c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993853642
+status: 3
+tags: []
+user_id: bomeyering

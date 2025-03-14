@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/f2def2035d77450496f6d688272121d9/artifacts
+deleted_time: 1741717885238
+end_time: 1741717726915
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: f2def2035d77450496f6d688272121d9
+run_name: orderly-bird-422
+run_uuid: f2def2035d77450496f6d688272121d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717724018
+status: 3
+tags: []
+user_id: bomeyering

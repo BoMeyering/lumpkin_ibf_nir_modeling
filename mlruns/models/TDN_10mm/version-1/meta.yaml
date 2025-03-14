@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1741977790281
+current_stage: None
+description: ''
+last_updated_timestamp: 1741977790281
+name: TDN_10mm
+run_id: 61eb85626060459ab8854bdaa70d87a4
+run_link: ''
+source: mlflow-artifacts:/981999527551682300/61eb85626060459ab8854bdaa70d87a4/artifacts/ibf_total_digestible_nutrients
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/981999527551682300/61eb85626060459ab8854bdaa70d87a4/artifacts/ibf_total_digestible_nutrients
+user_id: null
+version: 1

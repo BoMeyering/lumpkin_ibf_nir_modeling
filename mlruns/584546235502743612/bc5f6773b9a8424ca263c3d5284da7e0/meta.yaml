@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/bc5f6773b9a8424ca263c3d5284da7e0/artifacts
+deleted_time: 1741794263597
+end_time: 1741720966582
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: deleted
+run_id: bc5f6773b9a8424ca263c3d5284da7e0
+run_name: funny-gnat-423
+run_uuid: bc5f6773b9a8424ca263c3d5284da7e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720963528
+status: 3
+tags: []
+user_id: bomeyering

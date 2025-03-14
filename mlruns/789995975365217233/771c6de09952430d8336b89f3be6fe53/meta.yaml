@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/771c6de09952430d8336b89f3be6fe53/artifacts
+deleted_time: 1741794263590
+end_time: 1741720979574
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: deleted
+run_id: 771c6de09952430d8336b89f3be6fe53
+run_name: rebellious-stag-886
+run_uuid: 771c6de09952430d8336b89f3be6fe53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720976194
+status: 3
+tags: []
+user_id: bomeyering

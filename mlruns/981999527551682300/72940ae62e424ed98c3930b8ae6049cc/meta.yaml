@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/72940ae62e424ed98c3930b8ae6049cc/artifacts
+end_time: 1741980538553
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: 72940ae62e424ed98c3930b8ae6049cc
+run_name: selective-fowl-913
+run_uuid: 72940ae62e424ed98c3930b8ae6049cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980535537
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/231096377611019980/772762aec24444d0add7b87f8961cd5e/artifacts
+deleted_time: 1741720058188
+end_time: 1741718094458
+entry_point_name: ''
+experiment_id: '231096377611019980'
+lifecycle_stage: deleted
+run_id: 772762aec24444d0add7b87f8961cd5e
+run_name: adaptable-rat-927
+run_uuid: 772762aec24444d0add7b87f8961cd5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718091396
+status: 3
+tags: []
+user_id: bomeyering

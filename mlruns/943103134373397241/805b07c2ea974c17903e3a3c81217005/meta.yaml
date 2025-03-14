@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/805b07c2ea974c17903e3a3c81217005/artifacts
+deleted_time: 1741717885234
+end_time: 1741717735804
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: 805b07c2ea974c17903e3a3c81217005
+run_name: sedate-dolphin-791
+run_uuid: 805b07c2ea974c17903e3a3c81217005
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741717732788
+status: 3
+tags: []
+user_id: bomeyering

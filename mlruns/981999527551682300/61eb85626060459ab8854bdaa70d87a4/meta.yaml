@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/61eb85626060459ab8854bdaa70d87a4/artifacts
+end_time: 1741977223078
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: 61eb85626060459ab8854bdaa70d87a4
+run_name: charming-zebra-979
+run_uuid: 61eb85626060459ab8854bdaa70d87a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741977219738
+status: 3
+tags: []
+user_id: bomeyering

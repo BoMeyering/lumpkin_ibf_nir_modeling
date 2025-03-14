@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/fb8ccbaab9af4d7d95a0e88d3245d2df/artifacts
+deleted_time: 1741720058181
+end_time: 1741718116475
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: fb8ccbaab9af4d7d95a0e88d3245d2df
+run_name: aged-steed-430
+run_uuid: fb8ccbaab9af4d7d95a0e88d3245d2df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718113420
+status: 3
+tags: []
+user_id: bomeyering

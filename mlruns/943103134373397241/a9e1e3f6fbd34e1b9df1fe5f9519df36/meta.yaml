@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/943103134373397241/a9e1e3f6fbd34e1b9df1fe5f9519df36/artifacts
+deleted_time: 1741718085455
+end_time: 1741718045220
+entry_point_name: ''
+experiment_id: '943103134373397241'
+lifecycle_stage: deleted
+run_id: a9e1e3f6fbd34e1b9df1fe5f9519df36
+run_name: receptive-squid-687
+run_uuid: a9e1e3f6fbd34e1b9df1fe5f9519df36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718042197
+status: 3
+tags: []
+user_id: bomeyering

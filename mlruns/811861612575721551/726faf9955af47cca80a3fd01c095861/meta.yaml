@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/726faf9955af47cca80a3fd01c095861/artifacts
+end_time: 1741993809969
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 726faf9955af47cca80a3fd01c095861
+run_name: gregarious-shoat-518
+run_uuid: 726faf9955af47cca80a3fd01c095861
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993806445
+status: 3
+tags: []
+user_id: bomeyering

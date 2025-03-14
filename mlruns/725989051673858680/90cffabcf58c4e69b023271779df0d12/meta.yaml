@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/90cffabcf58c4e69b023271779df0d12/artifacts
+end_time: 1741980049430
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: 90cffabcf58c4e69b023271779df0d12
+run_name: painted-seal-187
+run_uuid: 90cffabcf58c4e69b023271779df0d12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980046015
+status: 3
+tags: []
+user_id: bomeyering

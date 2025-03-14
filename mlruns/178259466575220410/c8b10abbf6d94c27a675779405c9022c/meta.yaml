@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/c8b10abbf6d94c27a675779405c9022c/artifacts
+deleted_time: 1741720951009
+end_time: 1741720862651
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: deleted
+run_id: c8b10abbf6d94c27a675779405c9022c
+run_name: suave-hound-224
+run_uuid: c8b10abbf6d94c27a675779405c9022c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741720859515
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/6284b13be538482dbb75ed306248546d/artifacts
+end_time: 1741980270942
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: 6284b13be538482dbb75ed306248546d
+run_name: puzzled-dolphin-461
+run_uuid: 6284b13be538482dbb75ed306248546d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741980268011
+status: 3
+tags: []
+user_id: bomeyering

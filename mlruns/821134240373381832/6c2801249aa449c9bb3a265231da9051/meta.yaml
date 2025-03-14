@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/6c2801249aa449c9bb3a265231da9051/artifacts
+deleted_time: 1741975985418
+end_time: 1741794327032
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: deleted
+run_id: 6c2801249aa449c9bb3a265231da9051
+run_name: burly-rook-803
+run_uuid: 6c2801249aa449c9bb3a265231da9051
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741794323940
+status: 3
+tags: []
+user_id: bomeyering

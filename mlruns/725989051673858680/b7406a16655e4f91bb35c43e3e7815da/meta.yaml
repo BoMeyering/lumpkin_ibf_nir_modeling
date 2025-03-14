@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/b7406a16655e4f91bb35c43e3e7815da/artifacts
+deleted_time: 1741720058180
+end_time: 1741718119556
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: deleted
+run_id: b7406a16655e4f91bb35c43e3e7815da
+run_name: thoughtful-lynx-298
+run_uuid: b7406a16655e4f91bb35c43e3e7815da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741718116495
+status: 3
+tags: []
+user_id: bomeyering

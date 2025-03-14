@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/1602b6b1f8d74db6bfd185fae6c6757d/artifacts
+end_time: 1741993824060
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: 1602b6b1f8d74db6bfd185fae6c6757d
+run_name: sassy-owl-70
+run_uuid: 1602b6b1f8d74db6bfd185fae6c6757d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993820552
+status: 3
+tags: []
+user_id: bomeyering

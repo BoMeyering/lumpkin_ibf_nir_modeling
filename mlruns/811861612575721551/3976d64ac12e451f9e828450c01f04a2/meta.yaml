@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/3976d64ac12e451f9e828450c01f04a2/artifacts
+end_time: 1741993846465
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 3976d64ac12e451f9e828450c01f04a2
+run_name: dapper-cod-450
+run_uuid: 3976d64ac12e451f9e828450c01f04a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741993842919
+status: 3
+tags: []
+user_id: bomeyering
