@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r library import, echo=FALSE, results='hide', include=FALSE}
 library(tidyverse, warn.conflicts=FALSE, quietly=TRUE)
 library(lme4, warn.conflicts=FALSE, quietly=TRUE)
-# library(sommer, warn.conflicts=FALSE, quietly=TRUE)
+library(sommer, warn.conflicts=FALSE, quietly=TRUE)
 library(emmeans, warn.conflicts = FALSE, quietly = TRUE)
 library(data.table, warn.conflicts=FALSE, quietly=TRUE)
 library(knitr)
@@ -64,6 +64,16 @@ yield_summaries <- yield_data %>%
 germination_long <- germination_data %>% 
         pivot_longer(cols = c(germination_pct, hard_pct), names_to = 'key', values_to='values')
 
+# Read in the model outputs from mlflow runs
+model_results = fread("../model_output/runs.csv") %>% 
+        mutate(`Test RMSE` = round(`Test RMSE`, 3),
+               `Train RMSE` = round(`Train RMSE`, 3)) %>% 
+        arrange(`Forage Trait`, desc(`Forage Size`)) %>% 
+        dplyr::select(`Forage Trait`, `Forage Size`, `Num. Components`, `Train RMSE`, `Test RMSE`)
+
+
+
+
 ```
 
 # Introduction and Summary of Work
@@ -92,20 +102,32 @@ RMSE = \sqrt{\frac{\sum^N_{i=1}(y_i - \hat{y_i})^2}{N}}
 $$
 where $y_i$ represents the ground truth target value of the $i^{th}$ sample and $\hat{y_i}$ represents the model prediction for that sample. The model with the lowest testing population RMSE was selected as the final model.
 
-## BLUE/BLUP
+## Forage Quality Breeding BLUE and Repeatability
+We modeled each of the forage quality trait as $ X $
+
+Repeatabilty was then defined as the variance of the random effect 'Sample ID' divided by the total variance in the model 
+$$
+\frac{\sigma^2_G}{\sigma^2_G + \frac{\sigma^{2}_{resid.}}{r}}
+$$ 
+where $r$ is equal to the total number of replicates in the experiment, $\sigma^2_G$ is the sample variance from the random accession effects, and $\sigma^2_{resid.}$ is the residual model variance.
 
 ## Selection Index
+
+We defined a selection index based on the importance of 3 traits: Forage yield, total digestible nutrients, and crude protein such that the selection index for IBF accesssion $i$ can be represented as:
+$$
+SI_i = w \cdot x_i
+$$
+where $w$ is a column vector of weights that sum to 1, and $x_i$ is a vector of traits from the $i^{th}$ accession expressed as $x_i = [\text{forage yield}, \text{tdn} , \text{crude protein}]$
 
 # Results
 ## Germination Results
 
 ```{r Germination results plot, fig.width=10}
-
 germination_plot <- ggplot(germination_long, aes(x=reorder(sample_id, -total_viable_pct), y=values, fill=key))+
         geom_bar(stat = 'identity', position='stack', width=.9)+
         theme_light()+
         scale_fill_viridis_d(option='D', begin=0.2, end=0.8)+
-        labs(x = 'Accession', y='Total Viability', fill="Germination")+
+        labs(x = 'Accession', y='Total Viability', fill="Germination", title="Total Accession Seed Viability")+
         ylim(min=0, max=100)+
         theme(axis.text.x = element_blank(),
               axis.ticks.x = element_blank(),
@@ -113,9 +135,6 @@ germination_plot <- ggplot(germination_long, aes(x=reorder(sample_id, -total_via
               panel.grid.minor.x = element_blank())
 
 germination_plot
-
-        
-
 ```
 
 
@@ -129,6 +148,10 @@ yield_data <- fread('../data/lumpkin_ibf_forage_yield.csv') %>%
         left_join(trial_layout, by='sample_name') %>% 
         dplyr::select(sample_name, trts, block, rep, row, column, forage_yield_kg_ha) %>% 
         rename('sample_id' = 'trts')
+
+# Filter out plots with really low yield
+yield_data <- yield_data %>% 
+        filter(forage_yield_kg_ha > 500)
 
 yield_summaries <- yield_data %>% 
         group_by(sample_id) %>% 
@@ -177,6 +200,39 @@ yield_plot
 ```
 
 ```{r}
+# Descending yield boxplot
+# median_values = ibf_10mm_summary %>% 
+#         left_join(trial_layout %>% dplyr::select(c(sample_name, trts)), by='sample_name') %>% 
+#         dplyr::select(-sample_name) %>% 
+#         rename('sample_id' = 'trts') %>% 
+#         group_by(sample_id) %>% 
+#         summarize_all(median) %>% 
+#         filter(!sample_id %in% c('HI-GEST 660', 'Kura Clover', 'Sainfoin'))
+# 
+# ibf_10mm_summary_df = ibf_10mm_summary %>% 
+#         left_join(trial_layout %>% dplyr::select(c(sample_name, trts)), by='sample_name') %>% 
+#         dplyr::select(-sample_name) %>% 
+#         rename('sample_id' = 'trts')
+# 
+# 
+# cp_plot = ggplot(
+#         ibf_10mm_summary_df, 
+#         aes(x=reorder(sample_id, -adf_pct, FUN=median), y=adf_pct)
+#         )+
+#         geom_boxplot()+
+#         scale_fill_viridis_c(option='D')+
+#         theme_light()+
+#         labs(x = 'Accession', y='Forage Yield (kg/Ha)', fill = 'Forage Yield')+
+#         theme(axis.text.x = element_blank(),
+#               axis.ticks.x = element_blank(),
+#               panel.grid.major.x = element_blank(),
+#               panel.grid.minor.x = element_blank())
+# 
+# cp_plot
+```
+
+
+```{r}
 
 ggplot(wetchem_longer, aes(x=results, group=test, fill=test))+
         geom_density()+
@@ -197,11 +253,12 @@ crude_protein_plot
 
 ```
 
-```{r}
+```{r IBF prediction list and summary, echo=FALSE, warning=FALSE, message=FALSE}
 ibf_predictions <- list("1mm" = NULL, 
                         "10mm" = NULL)
 
-file_list = dir('../model_output')
+file_list = dir('../predictions')
+
 for (file_name in file_list) {
         if (startsWith(file_name, 'ibf')) {
                 # Extract the forage sample size
@@ -210,11 +267,11 @@ for (file_name in file_list) {
                 # Extract the forage trait
                 trait = str_extract(file_name, "(?<=ibf_).*?(?=_\\d+mm)")
                 
-                file_path = file.path('../model_output', file_name)
+                file_path = file.path('../predictions', file_name)
                 predictions = fread(file_path)
-                # print(predictions)
+
                 predictions <- predictions %>% 
-                        rename(!!trait := 'value') # Rename the value column
+                        rename(!!trait := 'value') # Rename the value column dynamically !!(name) evaluates name
                 
                 if (is.null(ibf_predictions[[forage_size]])) {
                         ibf_predictions[[forage_size]] = predictions
@@ -230,14 +287,145 @@ for (file_name in file_list) {
 ibf_1mm_summary <- ibf_predictions[['1mm']] %>% 
         group_by(sample_name) %>% 
         summarize_all(mean) %>% 
-        dplyr::select(-rep)
+        dplyr::select(-rep) %>% 
+        left_join(
+                trial_layout %>% 
+                        dplyr::select(c(sample_name, 1:3)),
+                by=c('sample_name')
+        ) %>% 
+        rename('sample_id' = 'trts') %>% 
+        dplyr::select(sample_id, block, plots, sample_name, everything())
 
 ibf_10mm_summary <- ibf_predictions[['10mm']] %>% 
         group_by(sample_name) %>% 
         summarize_all(mean) %>% 
-        dplyr::select(-rep)
+        dplyr::select(-rep) %>% 
+        left_join(
+                trial_layout %>% 
+                        dplyr::select(c(sample_name, 1:3)),
+                by=c('sample_name')
+        ) %>% 
+        rename('sample_id' = 'trts') %>% 
+        inner_join(yield_data %>% dplyr::select(sample_name, forage_yield_kg_ha), by='sample_name') %>% 
+        dplyr::select(sample_id, block, plots, sample_name, everything())
 
 write_csv(ibf_1mm_summary, 'ibf_1mm_predictions.csv')
 write_csv(ibf_10mm_summary, 'ibf_10mm_predictions.csv')
+
+
 ```
+
+## Trait Predictions and Repeatability
+
+```{r repeatability modeling}
+# Function to calculate the repeatability of a trait
+calc_repeatability <- function(model, r) {
+        # Grab the variance components
+        var_comp <- as.data.frame(VarCorr(model))
+        
+        # Get the variance of the breeding lines (Random Effects)
+        var_g <- var_comp[1, "vcov"]
+        # Grab the total variance of the population
+        var_p <- var_comp[2, "vcov"]
+        # Calculate R
+        r = var_g / (var_g + (var_p / r))
+        
+        r
+}
+
+# Construct a list of all the mixed models of traits setting the sample_ids as random effects and block as a fixed effect
+model_list = list(
+        'forage_yield_kg_ha' = fy_mm <- lmer(forage_yield_kg_ha ~ 1 + (1|sample_id) + block, data=ibf_10mm_summary),
+        'dry_matter_pct' = dm_mm <- lmer(dry_matter_pct ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'moisture_pct' = moi_mm <- lmer(moisture_pct ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'adf_pct' = adf_mm <- lmer(adf_pct ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'ndf_pct' = ndf_mm <- lmer(ndf_pct ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'crude_protein_pct' = cp_mm <- lmer(crude_protein_pct ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'relative_feed_value' = rfv_mm <- lmer(relative_feed_value ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'total_digestible_nutrients' = tdn_mm <- lmer(total_digestible_nutrients ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'neg_adf' = neg_mm <- lmer(neg_adf ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'nel_adf'= nel <- lmer(nel_adf ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary),
+        'nem_adf' = nem <- lmer(nem_adf ~ 1 + (1|sample_id) + block, data = ibf_10mm_summary)
+)
+
+# Extract and store the R values
+r_values <- c()
+for (name in names(model_list)) {
+        print(name)
+        model = model_list[[name]]
+        r = calc_repeatability(model, r=4)
+        r_values <- c(r_values, r)
+}
+
+# Build a dataframe with the repeatability values
+r_df <- data.frame('test_trait' = names(model_list), 'r' = r_values)
+
+# Get the whole population means
+ibf_population_means <- ibf_10mm_summary %>% 
+        filter(!sample_id %in% c('HI-GEST 660', 'Kura Clover', 'Sainfoin')) %>% 
+        dplyr::select(-c(1:4)) %>% 
+        summarize_all(.funs = list('mean' = mean, 'min'=min, 'max'=max, 'var' = var)) %>% 
+        pivot_longer(cols = everything(), names_to="test_trait", values_to = "value") %>% 
+        separate(test_trait, into=c('test_trait', 'metric'), sep='_(?=[^_]+$)') %>% 
+        pivot_wider(names_from = metric)
+
+ibf_population_means <- r_df %>% 
+        left_join(ibf_population_means) %>% 
+        mutate(range = paste(round(min, 2), round(max, 2), sep = " - ")) %>% 
+        dplyr::select(test_trait, mean, range, var, r) 
+
+
+
+rownames(ibf_population_means) <- c("Forage Yield kg/Ha", "Dry Matter Pct.", "Moisture Content Pct.", "ADF Pct.", "NDF Pct.", "Crude Protein Pct.", "RFV", "TDN", "NEG ADF", "NEL ADF", "NEM ADF")
+ibf_population_means <- ibf_population_means %>% 
+        dplyr::select(-test_trait)
+
+kable(
+        ibf_population_means, 
+        digits = 4, 
+        col.names = c('Mean', 'Range', 'Variance', 'R'),
+        row.names = TRUE,
+        align = 'c'
+) %>% 
+        kable_material()
+```
+
+
+## Selection Index
+
+Create a selection index such that
+$$
+I_{penalized} = \bar{I} \cdot(1 - \lambda\cdot\frac{\sigma_I}{\bar{I}})
+$$
+
+where $\bar{I}$ is a given replicates selection index calculated
+$\sigma_I$ is the standard deviation of the selection indices over all 4 replicates
+$\lambda$ is a tuning penalty parameter to downweight samples with a high coefficient of variation
+
+
+```{r}
+# Penalty Term
+LAMBDA = 0.5
+
+# Vector of weights for forage_yield, TDN, and crude_protein
+W = c(.8, .1, .1)
+
+# Subset for the traits of interest
+selection_df <- ibf_10mm_summary %>% 
+        dplyr::select(sample_id, forage_yield_kg_ha, total_digestible_nutrients, crude_protein_pct)
+
+selection_ids = selection_df$sample_id
+
+selection_matrix <- as.matrix(selection_df %>% 
+        dplyr::select(-sample_id))
+
+SI_vector <- selection_matrix %*% W
+
+SI_df <- data.frame(sample_id = selection_ids, si=SI_vector) %>% 
+        group_by(sample_id) %>%
+        summarize_all(.funs = list('mean'=mean, 'var'=var)) %>% 
+        rowwise() %>% 
+        mutate(I_penalize = mean * (1-LAMBDA*(sqrt(var)/mean)))
+```
+
 
