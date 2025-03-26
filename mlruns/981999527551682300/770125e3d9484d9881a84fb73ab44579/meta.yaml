@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/770125e3d9484d9881a84fb73ab44579/artifacts
+deleted_time: 1742011794393
 end_time: 1741979542773
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 770125e3d9484d9881a84fb73ab44579
 run_name: colorful-seal-344
 run_uuid: 770125e3d9484d9881a84fb73ab44579

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/9db9b36bef9241ffaaee253a39ca157e/artifacts
+deleted_time: 1742011764554
 end_time: 1741980526101
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9db9b36bef9241ffaaee253a39ca157e
 run_name: dashing-gnat-410
 run_uuid: 9db9b36bef9241ffaaee253a39ca157e

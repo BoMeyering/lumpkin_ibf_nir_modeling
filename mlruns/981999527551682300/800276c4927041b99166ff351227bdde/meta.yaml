@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/981999527551682300/800276c4927041b99166ff351227bdde/artifacts
+end_time: 1742011888533
+entry_point_name: ''
+experiment_id: '981999527551682300'
+lifecycle_stage: active
+run_id: 800276c4927041b99166ff351227bdde
+run_name: fearless-conch-325
+run_uuid: 800276c4927041b99166ff351227bdde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011885423
+status: 3
+tags: []
+user_id: bomeyering

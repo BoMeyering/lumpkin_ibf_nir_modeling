@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/c82051fd6deb4e729d68325d23e57d74/artifacts
+deleted_time: 1742011794402
 end_time: 1741977232591
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c82051fd6deb4e729d68325d23e57d74
 run_name: funny-foal-654
 run_uuid: c82051fd6deb4e729d68325d23e57d74

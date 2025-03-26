@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/789995975365217233/e38f4e710258470ba830b7faa163b064/artifacts
+deleted_time: 1742011764600
 end_time: 1741980282723
 entry_point_name: ''
 experiment_id: '789995975365217233'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e38f4e710258470ba830b7faa163b064
 run_name: colorful-rat-159
 run_uuid: e38f4e710258470ba830b7faa163b064

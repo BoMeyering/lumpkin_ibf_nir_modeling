@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/55811de1d7b440cca23bf59de18471b1/artifacts
+deleted_time: 1742011764497
 end_time: 1741993806405
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 55811de1d7b440cca23bf59de18471b1
 run_name: carefree-mole-703
 run_uuid: 55811de1d7b440cca23bf59de18471b1

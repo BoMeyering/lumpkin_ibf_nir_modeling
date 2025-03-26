@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/a26223e9f51f4cad85de3219a1e52410/artifacts
+deleted_time: 1742011764579
 end_time: 1741980395148
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a26223e9f51f4cad85de3219a1e52410
 run_name: resilient-shark-649
 run_uuid: a26223e9f51f4cad85de3219a1e52410

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/25db1a10bd96406fb87b3baa7601b367/artifacts
+deleted_time: 1742011764514
 end_time: 1741993760744
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 25db1a10bd96406fb87b3baa7601b367
 run_name: thoughtful-sow-932
 run_uuid: 25db1a10bd96406fb87b3baa7601b367

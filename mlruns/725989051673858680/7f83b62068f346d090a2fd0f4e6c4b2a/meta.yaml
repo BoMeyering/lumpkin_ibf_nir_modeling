@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/725989051673858680/7f83b62068f346d090a2fd0f4e6c4b2a/artifacts
+deleted_time: 1742011764597
 end_time: 1741980292068
 entry_point_name: ''
 experiment_id: '725989051673858680'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7f83b62068f346d090a2fd0f4e6c4b2a
 run_name: crawling-bat-982
 run_uuid: 7f83b62068f346d090a2fd0f4e6c4b2a

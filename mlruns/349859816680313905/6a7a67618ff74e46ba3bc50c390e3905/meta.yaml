@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/6a7a67618ff74e46ba3bc50c390e3905/artifacts
+deleted_time: 1742011764537
 end_time: 1741980547726
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6a7a67618ff74e46ba3bc50c390e3905
 run_name: glamorous-snipe-659
 run_uuid: 6a7a67618ff74e46ba3bc50c390e3905

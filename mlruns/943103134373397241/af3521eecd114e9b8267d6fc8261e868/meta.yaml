@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/af3521eecd114e9b8267d6fc8261e868/artifacts
+deleted_time: 1742011764567
 end_time: 1741980494734
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: af3521eecd114e9b8267d6fc8261e868
 run_name: bustling-snipe-515
 run_uuid: af3521eecd114e9b8267d6fc8261e868

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/725989051673858680/90af412c29aa419897e5b5d154383d47/artifacts
+deleted_time: 1742011764539
 end_time: 1741980544601
 entry_point_name: ''
 experiment_id: '725989051673858680'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 90af412c29aa419897e5b5d154383d47
 run_name: victorious-crow-372
 run_uuid: 90af412c29aa419897e5b5d154383d47

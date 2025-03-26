@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/71a59c8dc99b4c6980d27ac4749fb5f2/artifacts
+deleted_time: 1742011794398
 end_time: 1741979533762
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 71a59c8dc99b4c6980d27ac4749fb5f2
 run_name: debonair-cod-677
 run_uuid: 71a59c8dc99b4c6980d27ac4749fb5f2

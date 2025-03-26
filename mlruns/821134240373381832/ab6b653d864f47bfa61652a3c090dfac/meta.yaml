@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/821134240373381832/ab6b653d864f47bfa61652a3c090dfac/artifacts
+deleted_time: 1742011764559
 end_time: 1741980510249
 entry_point_name: ''
 experiment_id: '821134240373381832'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ab6b653d864f47bfa61652a3c090dfac
 run_name: painted-croc-372
 run_uuid: ab6b653d864f47bfa61652a3c090dfac

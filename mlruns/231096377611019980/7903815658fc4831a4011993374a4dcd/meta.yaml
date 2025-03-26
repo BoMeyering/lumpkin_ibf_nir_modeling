@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/7903815658fc4831a4011993374a4dcd/artifacts
+deleted_time: 1742011764569
 end_time: 1741980474642
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7903815658fc4831a4011993374a4dcd
 run_name: thundering-hound-91
 run_uuid: 7903815658fc4831a4011993374a4dcd

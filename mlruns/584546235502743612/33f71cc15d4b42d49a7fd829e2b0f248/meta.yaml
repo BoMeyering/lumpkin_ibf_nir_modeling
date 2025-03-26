@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/584546235502743612/33f71cc15d4b42d49a7fd829e2b0f248/artifacts
+deleted_time: 1742011794422
 end_time: 1741977175020
 entry_point_name: ''
 experiment_id: '584546235502743612'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 33f71cc15d4b42d49a7fd829e2b0f248
 run_name: gifted-squid-556
 run_uuid: 33f71cc15d4b42d49a7fd829e2b0f248

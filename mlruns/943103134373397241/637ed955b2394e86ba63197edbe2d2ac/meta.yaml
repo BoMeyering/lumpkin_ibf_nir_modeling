@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/637ed955b2394e86ba63197edbe2d2ac/artifacts
+deleted_time: 1742011764473
 end_time: 1741993842849
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 637ed955b2394e86ba63197edbe2d2ac
 run_name: luminous-smelt-989
 run_uuid: 637ed955b2394e86ba63197edbe2d2ac

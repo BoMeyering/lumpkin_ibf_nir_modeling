@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/178259466575220410/a8b014aaf56642f8b94abce97296ea59/artifacts
+end_time: 1742011882415
+entry_point_name: ''
+experiment_id: '178259466575220410'
+lifecycle_stage: active
+run_id: a8b014aaf56642f8b94abce97296ea59
+run_name: traveling-stoat-488
+run_uuid: a8b014aaf56642f8b94abce97296ea59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011879447
+status: 3
+tags: []
+user_id: bomeyering

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/10feee1ea5ae4a7f93f9a9c34bbe7ec7/artifacts
+deleted_time: 1742011764616
 end_time: 1741980247213
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 10feee1ea5ae4a7f93f9a9c34bbe7ec7
 run_name: dashing-hound-124
 run_uuid: 10feee1ea5ae4a7f93f9a9c34bbe7ec7

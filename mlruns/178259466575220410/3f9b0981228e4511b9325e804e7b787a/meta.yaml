@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/3f9b0981228e4511b9325e804e7b787a/artifacts
+deleted_time: 1742011794372
 end_time: 1741980036355
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3f9b0981228e4511b9325e804e7b787a
 run_name: suave-skunk-812
 run_uuid: 3f9b0981228e4511b9325e804e7b787a

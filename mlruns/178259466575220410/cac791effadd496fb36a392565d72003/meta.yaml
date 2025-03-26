@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/cac791effadd496fb36a392565d72003/artifacts
+deleted_time: 1742011764601
 end_time: 1741980279740
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cac791effadd496fb36a392565d72003
 run_name: incongruous-elk-365
 run_uuid: cac791effadd496fb36a392565d72003

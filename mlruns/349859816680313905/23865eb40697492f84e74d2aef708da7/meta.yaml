@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/23865eb40697492f84e74d2aef708da7/artifacts
+deleted_time: 1742011764608
 end_time: 1741980264767
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 23865eb40697492f84e74d2aef708da7
 run_name: able-shrike-56
 run_uuid: 23865eb40697492f84e74d2aef708da7

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/725989051673858680/61905b87cea447e893050ebf904ff671/artifacts
+deleted_time: 1742011764459
 end_time: 1741993864353
 entry_point_name: ''
 experiment_id: '725989051673858680'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 61905b87cea447e893050ebf904ff671
 run_name: efficient-panda-495
 run_uuid: 61905b87cea447e893050ebf904ff671

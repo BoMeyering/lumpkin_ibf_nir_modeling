@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/61eb85626060459ab8854bdaa70d87a4/artifacts
+deleted_time: 1742011794404
 end_time: 1741977223078
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 61eb85626060459ab8854bdaa70d87a4
 run_name: charming-zebra-979
 run_uuid: 61eb85626060459ab8854bdaa70d87a4

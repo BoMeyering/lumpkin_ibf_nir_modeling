@@ -3,6 +3,7 @@ title: "Lumpkin Foundation - Illinois Bundleflower Final Report"
 author: "Spencer Barriball, Bo Meyering, Brandon Schlautman"
 date: "`r Sys.Date()`"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -64,6 +65,8 @@ yield_summaries <- yield_data %>%
 germination_long <- germination_data %>% 
         pivot_longer(cols = c(germination_pct, hard_pct), names_to = 'key', values_to='values')
 
+germination_long$key <- factor(germination_long$key, labels=c('Quick Seed', 'Hard Seed'))
+
 # Read in the model outputs from mlflow runs
 model_results = fread("../model_output/runs.csv") %>% 
         mutate(`Test RMSE` = round(`Test RMSE`, 3),
@@ -76,7 +79,50 @@ model_results = fread("../model_output/runs.csv") %>%
 
 ```
 
-# Introduction and Summary of Work
+# Introduction and Summary
+## Period Covered by Grant
+*Please list the time period this grant covered (e.g. 5/20 - 4/21)*
+
+3/22 - 2/25
+
+## Summary of Work
+*Please provide a 3 to 5 sentence summary of your post grant report. Include project name, geographic area served, and project accomplishments. 
+Response here.*
+
+[1,000 characters]
+
+### Outcomes
+Please indicate which Outcomes you selected on your original application.
+
+* Direct impact on climate, habitat, soil health, or mitigation of extreme weather
+* Enhanced public understanding of why your activity is important
+* Contribution to climate science that makes future land uses
+* Model for communities/organizations how your work improves the lives of people and the environment
+
+### Additional Outcomes
+* If previously listed on your application, add your additional outcome not listed above that applies to your request.*
+
+NA
+
+### Metrics
+Please indicated which Metrics you selected on your original application.
+
+* Rate of carbon sequestration or expected carbon storage
+* Media, community presentations or programs that spread the word on why your project is important
+* Volunteers recruited and engaged in your activity
+* Acres benefiting from your activity
+* ~~Trees newly planted or saved~~
+* Scientific papers, presentations, or contacts that add to climate science
+
+### Additional Metrics
+*If previously listed on your application, add your additional metric not listed above that applies to your request.*
+
+* Rate of nitrogen export
+
+### Updated Project Evaluation Table
+*Please upload your updated Project Evaluation Table to include the Actual data column.  If your actual data missed the target data, please discuss this in your Project Evaluation Narrative.*
+
+Here’s our Project Evaluation Table to be updated.
 
 # Materials and Methods
 
@@ -112,27 +158,38 @@ $$
 where $r$ is equal to the total number of replicates in the experiment, $\sigma^2_G$ is the sample variance from the random accession effects, and $\sigma^2_{resid.}$ is the residual model variance.
 
 ## Selection Index
-
-We defined a selection index based on the importance of 3 traits: Forage yield, total digestible nutrients, and crude protein such that the selection index for IBF accesssion $i$ can be represented as:
+For each field replicate plot of a given accession, we defined a selection index based on the importance of 3 traits: Forage yield, total digestible nutrients, and crude protein such that the selection index for sample $i$ can be represented as:
 $$
 SI_i = w \cdot x_i
 $$
-where $w$ is a column vector of weights that sum to 1, and $x_i$ is a vector of traits from the $i^{th}$ accession expressed as $x_i = [\text{forage yield}, \text{tdn} , \text{crude protein}]$
+where $w$ is a column vector of weights that sum to 1, and $x_i$ is a vector of traits from the $i^{th}$ sample expressed as $x_i = [\text{forage yield}, \text{tdn} , \text{crude protein}]$
+
+To balance the tradeoff between the average selection index value and variability within the index estimates for any given accesssion, we found the mean value for each accesssion's samples ($\bar{I} = \sum_{i=1}^{N}SI_i, n=4$) and then penalized it based on the accessions coefficient of variation, resulting in the below definition.
+
+$$
+I_{penalized} = \bar{I} \cdot(1 - \lambda\cdot\frac{\sigma_I}{\bar{I}})
+$$
+
+where $\bar{I}$ is a given replicates selection index calculated, $\sigma_I$ is the standard deviation of the selection indices over all 4 replicates, $\lambda \in [0,1]$ is a tuning penalty parameter to downweight samples with a high coefficient of variation
 
 # Results
 ## Germination Results
+We performed germination tests on all of the historical accesssions collected. We sowed 100 seeds of each line, and tallied the number of seeds that germinated quickly, and the total number of hard seeds that germinated late. Overall average of quick germination was 45.6% of the seeds, while an additional 18.6% were hard seeds on average for a total mean viability of 64.2%. There was wide variability 
+
+
 
 ```{r Germination results plot, fig.width=10}
 germination_plot <- ggplot(germination_long, aes(x=reorder(sample_id, -total_viable_pct), y=values, fill=key))+
         geom_bar(stat = 'identity', position='stack', width=.9)+
         theme_light()+
         scale_fill_viridis_d(option='D', begin=0.2, end=0.8)+
-        labs(x = 'Accession', y='Total Viability', fill="Germination", title="Total Accession Seed Viability")+
+        labs(x = 'Accession', y='Total Viability (%)', fill="Germination", title="Total Accession Seed Viability")+
         ylim(min=0, max=100)+
         theme(axis.text.x = element_blank(),
               axis.ticks.x = element_blank(),
               panel.grid.major.x = element_blank(),
-              panel.grid.minor.x = element_blank())
+              panel.grid.minor.x = element_blank(),
+              legend.title = element_blank())
 
 germination_plot
 ```
@@ -162,7 +219,7 @@ yield_summaries <- yield_data %>%
 
 yield_mm <- lmer(forage_yield_kg_ha ~ sample_id + (1|block), data=yield_data, )
 anova(yield_mm)
-summary(yield_mm)
+# summary(yield_mm)
 ```
 
 
@@ -185,16 +242,21 @@ median_values = yield_data %>%
 yield_data <- yield_data %>% 
         left_join(median_values)
 
+
+label_df <- yield_data %>% 
+        filter(sample_id %in% selections$sample_id) %>% 
+        mutate(y_pos = 2000)
 yield_plot = ggplot(yield_data, aes(x=reorder(sample_id, -forage_yield_kg_ha, FUN=median), y=forage_yield_kg_ha, fill=median_yield))+
         geom_boxplot()+
         scale_fill_viridis_c(option='D')+
         geom_hline(yintercept=mean(yield_data$forage_yield_kg_ha), linewidth=1, linetype=4)+
         theme_light()+
         labs(x = 'Accession', y='Forage Yield (kg/Ha)', fill = 'Forage Yield')+
-        theme(axis.text.x = element_blank(),
+        theme(axis.text.x = element_text(angle=90, vjust=0.5),
               axis.ticks.x = element_blank(),
               panel.grid.major.x = element_blank(),
-              panel.grid.minor.x = element_blank())
+              panel.grid.minor.x = element_blank())+
+        geom_text(data=label_df, aes(x = sample_id, y=y_pos), label = "★", color = "red", size = 5)
 
 yield_plot
 ```
@@ -392,20 +454,11 @@ kable(
 
 
 ## Selection Index
+We calculated the penalized selection index for 11 different $\lambda$ weights ranging from 0.0 to 1.0 in 0.1 increment steps, and then calculated the ranking of each accession to see if the rankings were stable (indicating selections that had low variability) or if changing the $\lambda$ parameter caused a lot of rank change in the selection. 
 
-Create a selection index such that
-$$
-I_{penalized} = \bar{I} \cdot(1 - \lambda\cdot\frac{\sigma_I}{\bar{I}})
-$$
-
-where $\bar{I}$ is a given replicates selection index calculated
-$\sigma_I$ is the standard deviation of the selection indices over all 4 replicates
-$\lambda$ is a tuning penalty parameter to downweight samples with a high coefficient of variation
-
-
-```{r}
+```{r Calculate base selection index, echo=FALSE, include=FALSE}
 # Penalty Term
-LAMBDA = 0.5
+LAMBDA = 0.0
 
 # Vector of weights for forage_yield, TDN, and crude_protein
 W = c(.8, .1, .1)
@@ -423,9 +476,94 @@ SI_vector <- selection_matrix %*% W
 
 SI_df <- data.frame(sample_id = selection_ids, si=SI_vector) %>% 
         group_by(sample_id) %>%
-        summarize_all(.funs = list('mean'=mean, 'var'=var)) %>% 
+        summarize_all(.funs = list('mean'=mean, 'median'=median, 'var'=var)) %>% 
         rowwise() %>% 
-        mutate(I_penalize = mean * (1-LAMBDA*(sqrt(var)/mean)))
+        mutate(sd = sqrt(var),
+               cv = sd / mean,
+               I_bar = mean * (1-LAMBDA*cv)) %>% 
+        arrange(desc(I_bar))
 ```
 
+
+```{r change of rank}
+LAMBDA = c(0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+
+for(lambda in LAMBDA){
+        SI_column_name = paste('SI', lambda, sep='_')
+        rank_column_name = paste('rank', lambda, sep = '_')
+        
+        # Calculate the new SI values
+        SI_df[[SI_column_name]] <- SI_df$mean * (1 - lambda * SI_df$cv)
+  
+        # Rank across all samples (higher SI = better)
+        SI_df[[rank_column_name]] <- rank(-SI_df[[SI_column_name]], ties.method = "min")
+}
+
+SI_df_ordered <- SI_df %>% 
+        arrange(desc(I_bar)) %>% 
+        pivot_longer(cols=starts_with('rank'), names_to = 'key', values_to = 'I_penalized')
+
+# Subset for the top 30 lines
+subset_df <- SI_df[1:30,]
+
+# Convert to long format for rank columns
+df_long <- subset_df %>%
+        dplyr::select(sample_id, starts_with("rank_")) %>%
+        pivot_longer(cols = starts_with("rank_"),
+                     names_to = "lambda",
+                     values_to = "rank") %>%
+        mutate(lambda = str_remove(lambda, "rank_"),
+               lambda = as.numeric(lambda))
+
+labels_df <- df_long %>%
+  filter(lambda == 0)
+
+# Plot with labels at lambda = 0
+rank_change_plot <- ggplot(df_long, aes(x = lambda, y = rank, group = sample_id, color=rank)) +
+        geom_line(linewidth=1) +
+        geom_text(data = labels_df,
+                  aes(label = sample_id),
+                  color = 'black',
+                  hjust = .0,  # nudge to the left of the line
+                  size = 2.5,
+                  nudge_x = -0.1,
+                  check_overlap = TRUE) +
+        scale_y_reverse() +
+        theme_minimal() +
+        labs(title = "Rank Changes Across Lambda Values",
+             x = expression(lambda),
+             y = "Rank (1 = Best)",
+             color='Rank') +
+        coord_cartesian(clip = "off") +
+        theme(panel.grid.minor = element_blank(),
+              plot.margin = margin(5.5, 5.5, 5.5, 5.5)) + # extra margin for labels
+        scale_color_viridis_c(option='D')+
+        scale_x_continuous(limits = c(-.1, 1))
+
+rank_change_plot
+
+```
+
+
+```{r Change of Rank plot, fig.height=5, fig.width=7}
+
+final_selections <- SI_df %>% 
+        arrange(rank_0.5)
+final_selections <- selections[1:5,]
+
+selections_summary <- ibf_10mm_summary %>% 
+        filter(sample_id %in% selections$sample_id) %>% 
+        group_by(sample_id) %>% 
+        summarize_at(.vars=vars(adf_pct:forage_yield_kg_ha), .funs = list('mean'=mean, 'sd'=sd)) %>% 
+        pivot_longer(cols = adf_pct_mean:forage_yield_kg_ha_sd, names_to = 'key', values_to='values') %>% 
+        separate(key, into=c('trait', 'metric'), sep='_(?=[^_]+$)') %>% 
+        pivot_wider(names_from='metric', values_from = 'values') %>% 
+        mutate(mean_sd = paste(round(mean, 2), "\u00B1", round(sd, 2), sep = " ")) %>% 
+        dplyr::select(sample_id, trait, mean_sd) %>% 
+        pivot_wider(names_from='trait', values_from = 'mean_sd')
+
+kable(selections_summary) %>% 
+        kable_material()
+        
+```
 

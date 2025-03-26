@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/a6d356c888c4400e9f39d188247f543e/artifacts
+deleted_time: 1742011764575
 end_time: 1741980407528
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a6d356c888c4400e9f39d188247f543e
 run_name: flawless-panda-478
 run_uuid: a6d356c888c4400e9f39d188247f543e

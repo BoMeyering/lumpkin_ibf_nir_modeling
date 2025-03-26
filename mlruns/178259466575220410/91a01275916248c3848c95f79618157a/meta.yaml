@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/91a01275916248c3848c95f79618157a/artifacts
+deleted_time: 1742011764564
 end_time: 1741980500784
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 91a01275916248c3848c95f79618157a
 run_name: legendary-donkey-99
 run_uuid: 91a01275916248c3848c95f79618157a

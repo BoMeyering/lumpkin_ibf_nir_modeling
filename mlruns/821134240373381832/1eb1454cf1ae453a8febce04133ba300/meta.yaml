@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/821134240373381832/1eb1454cf1ae453a8febce04133ba300/artifacts
+deleted_time: 1742011764516
 end_time: 1741993752981
 entry_point_name: ''
 experiment_id: '821134240373381832'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1eb1454cf1ae453a8febce04133ba300
 run_name: mercurial-robin-106
 run_uuid: 1eb1454cf1ae453a8febce04133ba300

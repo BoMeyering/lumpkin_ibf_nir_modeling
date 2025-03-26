@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/4197cc370ced42678c275dc242e3562e/artifacts
+deleted_time: 1742011794410
 end_time: 1741977209249
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4197cc370ced42678c275dc242e3562e
 run_name: big-doe-792
 run_uuid: 4197cc370ced42678c275dc242e3562e

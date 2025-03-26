@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/f02547944fc846b0949cf0244bb55a49/artifacts
+deleted_time: 1742011764593
 end_time: 1741980313938
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f02547944fc846b0949cf0244bb55a49
 run_name: bright-hog-287
 run_uuid: f02547944fc846b0949cf0244bb55a49

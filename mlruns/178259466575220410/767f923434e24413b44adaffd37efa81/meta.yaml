@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/767f923434e24413b44adaffd37efa81/artifacts
+deleted_time: 1742011764544
 end_time: 1741980532499
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 767f923434e24413b44adaffd37efa81
 run_name: popular-horse-294
 run_uuid: 767f923434e24413b44adaffd37efa81

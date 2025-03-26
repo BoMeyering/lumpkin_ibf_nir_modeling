@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/821134240373381832/0f0e2ba842814f82a4ea2555f30346fd/artifacts
+end_time: 1742011923543
+entry_point_name: ''
+experiment_id: '821134240373381832'
+lifecycle_stage: active
+run_id: 0f0e2ba842814f82a4ea2555f30346fd
+run_name: kindly-cub-234
+run_uuid: 0f0e2ba842814f82a4ea2555f30346fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011920540
+status: 3
+tags: []
+user_id: bomeyering

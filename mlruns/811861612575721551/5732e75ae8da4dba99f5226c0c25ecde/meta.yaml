@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/5732e75ae8da4dba99f5226c0c25ecde/artifacts
+deleted_time: 1742011764603
 end_time: 1741980276849
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5732e75ae8da4dba99f5226c0c25ecde
 run_name: luxuriant-crab-881
 run_uuid: 5732e75ae8da4dba99f5226c0c25ecde

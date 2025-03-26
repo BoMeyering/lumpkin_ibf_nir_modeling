@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/567a1ab4a9f84d3fb3ab7c5dcb6ecd38/artifacts
+deleted_time: 1742011764578
 end_time: 1741980398131
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 567a1ab4a9f84d3fb3ab7c5dcb6ecd38
 run_name: mercurial-swan-362
 run_uuid: 567a1ab4a9f84d3fb3ab7c5dcb6ecd38

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/811861612575721551/21f80123720a439cb7411f6f17f33aa4/artifacts
+end_time: 1742011879426
+entry_point_name: ''
+experiment_id: '811861612575721551'
+lifecycle_stage: active
+run_id: 21f80123720a439cb7411f6f17f33aa4
+run_name: loud-fish-638
+run_uuid: 21f80123720a439cb7411f6f17f33aa4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011876395
+status: 3
+tags: []
+user_id: bomeyering

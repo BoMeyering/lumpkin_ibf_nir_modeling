@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/f174973f6db6483395d4c4131506665c/artifacts
+deleted_time: 1742011764569
 end_time: 1741980488265
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f174973f6db6483395d4c4131506665c
 run_name: melodic-fowl-512
 run_uuid: f174973f6db6483395d4c4131506665c

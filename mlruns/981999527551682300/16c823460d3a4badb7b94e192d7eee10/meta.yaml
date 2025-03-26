@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/16c823460d3a4badb7b94e192d7eee10/artifacts
+deleted_time: 1742011764488
 end_time: 1741993820521
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 16c823460d3a4badb7b94e192d7eee10
 run_name: loud-snake-823
 run_uuid: 16c823460d3a4badb7b94e192d7eee10

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/75547a1c7269414fa9eb76b00143243f/artifacts
+deleted_time: 1742011764531
 end_time: 1741993735353
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 75547a1c7269414fa9eb76b00143243f
 run_name: rumbling-conch-742
 run_uuid: 75547a1c7269414fa9eb76b00143243f

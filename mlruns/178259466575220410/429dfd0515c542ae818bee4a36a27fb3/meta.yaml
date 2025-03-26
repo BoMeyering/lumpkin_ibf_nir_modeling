@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/429dfd0515c542ae818bee4a36a27fb3/artifacts
+deleted_time: 1742011764577
 end_time: 1741980401308
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 429dfd0515c542ae818bee4a36a27fb3
 run_name: abrasive-sheep-432
 run_uuid: 429dfd0515c542ae818bee4a36a27fb3

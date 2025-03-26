@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/280b4a14d13646aabdaf6a36d2219462/artifacts
+deleted_time: 1742011764500
 end_time: 1741993785287
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 280b4a14d13646aabdaf6a36d2219462
 run_name: upbeat-grub-47
 run_uuid: 280b4a14d13646aabdaf6a36d2219462

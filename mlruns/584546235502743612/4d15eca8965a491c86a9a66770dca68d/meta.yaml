@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/584546235502743612/4d15eca8965a491c86a9a66770dca68d/artifacts
+deleted_time: 1742011764580
 end_time: 1741980391983
 entry_point_name: ''
 experiment_id: '584546235502743612'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4d15eca8965a491c86a9a66770dca68d
 run_name: adaptable-calf-831
 run_uuid: 4d15eca8965a491c86a9a66770dca68d

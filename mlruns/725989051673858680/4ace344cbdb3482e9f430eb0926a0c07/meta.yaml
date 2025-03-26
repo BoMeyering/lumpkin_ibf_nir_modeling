@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/725989051673858680/4ace344cbdb3482e9f430eb0926a0c07/artifacts
+deleted_time: 1742011764482
 end_time: 1741993827785
 entry_point_name: ''
 experiment_id: '725989051673858680'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4ace344cbdb3482e9f430eb0926a0c07
 run_name: redolent-bird-105
 run_uuid: 4ace344cbdb3482e9f430eb0926a0c07

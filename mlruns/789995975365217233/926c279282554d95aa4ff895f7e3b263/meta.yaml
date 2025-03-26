@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/789995975365217233/926c279282554d95aa4ff895f7e3b263/artifacts
+deleted_time: 1742011764576
 end_time: 1741980404407
 entry_point_name: ''
 experiment_id: '789995975365217233'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 926c279282554d95aa4ff895f7e3b263
 run_name: delightful-mouse-660
 run_uuid: 926c279282554d95aa4ff895f7e3b263

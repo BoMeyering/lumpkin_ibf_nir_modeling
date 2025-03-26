@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/fedc669e9df546aeba272b5ffcf07f58/artifacts
+end_time: 1742011885395
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: fedc669e9df546aeba272b5ffcf07f58
+run_name: burly-chimp-518
+run_uuid: fedc669e9df546aeba272b5ffcf07f58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011882437
+status: 3
+tags: []
+user_id: bomeyering

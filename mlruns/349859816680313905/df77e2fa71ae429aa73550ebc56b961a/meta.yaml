@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/349859816680313905/df77e2fa71ae429aa73550ebc56b961a/artifacts
+end_time: 1742011897856
+entry_point_name: ''
+experiment_id: '349859816680313905'
+lifecycle_stage: active
+run_id: df77e2fa71ae429aa73550ebc56b961a
+run_name: dashing-gnat-410
+run_uuid: df77e2fa71ae429aa73550ebc56b961a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011894682
+status: 3
+tags: []
+user_id: bomeyering

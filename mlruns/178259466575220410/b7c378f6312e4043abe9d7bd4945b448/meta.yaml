@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/b7c378f6312e4043abe9d7bd4945b448/artifacts
+deleted_time: 1742011764465
 end_time: 1741993850076
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b7c378f6312e4043abe9d7bd4945b448
 run_name: rebellious-hen-185
 run_uuid: b7c378f6312e4043abe9d7bd4945b448

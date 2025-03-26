@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/a462d0502d5849d7b5a4b7ab8c497e42/artifacts
+deleted_time: 1742011764528
 end_time: 1741993738743
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a462d0502d5849d7b5a4b7ab8c497e42
 run_name: angry-sheep-141
 run_uuid: a462d0502d5849d7b5a4b7ab8c497e42

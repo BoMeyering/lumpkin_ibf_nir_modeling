@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/45452099a2314f509632db493f6d3bec/artifacts
+deleted_time: 1742011764526
 end_time: 1741993742174
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 45452099a2314f509632db493f6d3bec
 run_name: awesome-stag-384
 run_uuid: 45452099a2314f509632db493f6d3bec

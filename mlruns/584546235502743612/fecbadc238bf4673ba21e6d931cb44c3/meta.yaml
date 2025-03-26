@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/fecbadc238bf4673ba21e6d931cb44c3/artifacts
+end_time: 1742011873431
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: fecbadc238bf4673ba21e6d931cb44c3
+run_name: luxuriant-seal-255
+run_uuid: fecbadc238bf4673ba21e6d931cb44c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011868909
+status: 3
+tags: []
+user_id: bomeyering

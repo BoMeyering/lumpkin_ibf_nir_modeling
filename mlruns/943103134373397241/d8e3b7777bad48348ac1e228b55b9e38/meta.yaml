@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/d8e3b7777bad48348ac1e228b55b9e38/artifacts
+deleted_time: 1742011764509
 end_time: 1741993771399
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d8e3b7777bad48348ac1e228b55b9e38
 run_name: peaceful-eel-608
 run_uuid: d8e3b7777bad48348ac1e228b55b9e38

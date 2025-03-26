@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/735978c4cef34159ba3b483863a7586d/artifacts
+deleted_time: 1742011794387
 end_time: 1741979848185
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 735978c4cef34159ba3b483863a7586d
 run_name: ambitious-jay-31
 run_uuid: 735978c4cef34159ba3b483863a7586d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/cedc4975f7c7496c89697bb73e93dded/artifacts
+deleted_time: 1742011764506
 end_time: 1741993778614
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cedc4975f7c7496c89697bb73e93dded
 run_name: traveling-seal-960
 run_uuid: cedc4975f7c7496c89697bb73e93dded

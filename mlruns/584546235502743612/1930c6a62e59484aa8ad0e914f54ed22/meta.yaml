@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/584546235502743612/1930c6a62e59484aa8ad0e914f54ed22/artifacts
+deleted_time: 1742011764497
 end_time: 1741993803175
 entry_point_name: ''
 experiment_id: '584546235502743612'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1930c6a62e59484aa8ad0e914f54ed22
 run_name: calm-quail-475
 run_uuid: 1930c6a62e59484aa8ad0e914f54ed22

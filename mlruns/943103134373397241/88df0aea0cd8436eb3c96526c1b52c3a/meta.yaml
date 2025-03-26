@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/88df0aea0cd8436eb3c96526c1b52c3a/artifacts
+deleted_time: 1742011764591
 end_time: 1741980364880
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 88df0aea0cd8436eb3c96526c1b52c3a
 run_name: industrious-fox-344
 run_uuid: 88df0aea0cd8436eb3c96526c1b52c3a

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/821134240373381832/320a0155aa394f999d493498b96ce2bb/artifacts
+deleted_time: 1742011764611
 end_time: 1741980258975
 entry_point_name: ''
 experiment_id: '821134240373381832'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 320a0155aa394f999d493498b96ce2bb
 run_name: adorable-bat-834
 run_uuid: 320a0155aa394f999d493498b96ce2bb

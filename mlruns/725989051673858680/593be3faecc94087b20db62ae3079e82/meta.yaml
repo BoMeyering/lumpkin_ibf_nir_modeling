@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/725989051673858680/593be3faecc94087b20db62ae3079e82/artifacts
+end_time: 1742011926854
+entry_point_name: ''
+experiment_id: '725989051673858680'
+lifecycle_stage: active
+run_id: 593be3faecc94087b20db62ae3079e82
+run_name: sedate-ant-744
+run_uuid: 593be3faecc94087b20db62ae3079e82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011923593
+status: 3
+tags: []
+user_id: bomeyering

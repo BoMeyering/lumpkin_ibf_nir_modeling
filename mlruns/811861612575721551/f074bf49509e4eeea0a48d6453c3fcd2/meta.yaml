@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/f074bf49509e4eeea0a48d6453c3fcd2/artifacts
+deleted_time: 1742011764590
 end_time: 1741980367632
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f074bf49509e4eeea0a48d6453c3fcd2
 run_name: defiant-shark-729
 run_uuid: f074bf49509e4eeea0a48d6453c3fcd2

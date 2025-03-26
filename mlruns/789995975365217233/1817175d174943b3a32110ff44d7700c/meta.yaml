@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/789995975365217233/1817175d174943b3a32110ff44d7700c/artifacts
+deleted_time: 1742011764544
 end_time: 1741980535515
 entry_point_name: ''
 experiment_id: '789995975365217233'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1817175d174943b3a32110ff44d7700c
 run_name: abrasive-snipe-506
 run_uuid: 1817175d174943b3a32110ff44d7700c

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/d0f9dbdac1b24c35b28c9ba8bacdf370/artifacts
+deleted_time: 1742011764619
 end_time: 1741980244277
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d0f9dbdac1b24c35b28c9ba8bacdf370
 run_name: chill-eel-807
 run_uuid: d0f9dbdac1b24c35b28c9ba8bacdf370

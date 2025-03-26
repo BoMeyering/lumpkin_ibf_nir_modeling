@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/725989051673858680/90cffabcf58c4e69b023271779df0d12/artifacts
+deleted_time: 1742011794365
 end_time: 1741980049430
 entry_point_name: ''
 experiment_id: '725989051673858680'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 90cffabcf58c4e69b023271779df0d12
 run_name: painted-seal-187
 run_uuid: 90cffabcf58c4e69b023271779df0d12

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/7f42757b820146ce809c1899a1caab49/artifacts
+deleted_time: 1742011794370
 end_time: 1741980042789
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7f42757b820146ce809c1899a1caab49
 run_name: intrigued-wolf-519
 run_uuid: 7f42757b820146ce809c1899a1caab49

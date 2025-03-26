@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/bb4c4f4c2a0049b5b194fc7206777552/artifacts
+deleted_time: 1742011794412
 end_time: 1741977202677
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bb4c4f4c2a0049b5b194fc7206777552
 run_name: enchanting-sheep-615
 run_uuid: bb4c4f4c2a0049b5b194fc7206777552

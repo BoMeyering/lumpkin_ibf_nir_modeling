@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/47abf86391e849aab8028a676bef91db/artifacts
+deleted_time: 1742011764571
 end_time: 1741980417223
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 47abf86391e849aab8028a676bef91db
 run_name: peaceful-zebra-650
 run_uuid: 47abf86391e849aab8028a676bef91db

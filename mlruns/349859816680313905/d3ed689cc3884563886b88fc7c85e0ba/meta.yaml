@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/d3ed689cc3884563886b88fc7c85e0ba/artifacts
+deleted_time: 1742011764596
 end_time: 1741980295169
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d3ed689cc3884563886b88fc7c85e0ba
 run_name: enchanting-stag-21
 run_uuid: d3ed689cc3884563886b88fc7c85e0ba

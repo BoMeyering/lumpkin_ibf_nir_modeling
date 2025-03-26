@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/2aeba33f06024bc0ad21940e7e2c979e/artifacts
+deleted_time: 1742011764552
 end_time: 1741980529220
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2aeba33f06024bc0ad21940e7e2c979e
 run_name: invincible-shad-899
 run_uuid: 2aeba33f06024bc0ad21940e7e2c979e

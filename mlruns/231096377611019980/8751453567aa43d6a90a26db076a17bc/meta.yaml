@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/8751453567aa43d6a90a26db076a17bc/artifacts
+deleted_time: 1742011794385
 end_time: 1741979985578
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8751453567aa43d6a90a26db076a17bc
 run_name: carefree-dolphin-280
 run_uuid: 8751453567aa43d6a90a26db076a17bc

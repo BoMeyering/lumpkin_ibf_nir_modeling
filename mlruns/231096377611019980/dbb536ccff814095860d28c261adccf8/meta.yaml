@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/dbb536ccff814095860d28c261adccf8/artifacts
+deleted_time: 1742011794356
 end_time: 1741980177371
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dbb536ccff814095860d28c261adccf8
 run_name: likeable-bat-73
 run_uuid: dbb536ccff814095860d28c261adccf8

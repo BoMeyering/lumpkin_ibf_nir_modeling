@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/3389759383f64d8c989ed2262e166e39/artifacts
+deleted_time: 1742011794414
 end_time: 1741977199575
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3389759383f64d8c989ed2262e166e39
 run_name: loud-bat-394
 run_uuid: 3389759383f64d8c989ed2262e166e39

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/11e612458c64486297d4dce46231464e/artifacts
+deleted_time: 1742011764482
 end_time: 1741993831374
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 11e612458c64486297d4dce46231464e
 run_name: amusing-toad-611
 run_uuid: 11e612458c64486297d4dce46231464e

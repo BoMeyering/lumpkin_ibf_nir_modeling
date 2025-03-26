@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/789995975365217233/bd15fd619eb54488b515e4ef7f35f224/artifacts
+end_time: 1742011917206
+entry_point_name: ''
+experiment_id: '789995975365217233'
+lifecycle_stage: active
+run_id: bd15fd619eb54488b515e4ef7f35f224
+run_name: judicious-hen-893
+run_uuid: bd15fd619eb54488b515e4ef7f35f224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011914101
+status: 3
+tags: []
+user_id: bomeyering

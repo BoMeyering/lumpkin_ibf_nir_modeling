@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/811861612575721551/09503dc6548949da95736d8bcceb1288/artifacts
+deleted_time: 1742011794397
 end_time: 1741979536560
 entry_point_name: ''
 experiment_id: '811861612575721551'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 09503dc6548949da95736d8bcceb1288
 run_name: enthused-fawn-589
 run_uuid: 09503dc6548949da95736d8bcceb1288

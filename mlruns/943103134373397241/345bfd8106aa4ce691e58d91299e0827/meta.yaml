@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/345bfd8106aa4ce691e58d91299e0827/artifacts
+deleted_time: 1742011794375
 end_time: 1741980030309
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 345bfd8106aa4ce691e58d91299e0827
 run_name: nimble-hound-417
 run_uuid: 345bfd8106aa4ce691e58d91299e0827

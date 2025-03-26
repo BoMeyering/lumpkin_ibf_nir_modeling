@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/8550a55e7df44d278df1da9209d4d1f4/artifacts
+deleted_time: 1742011794388
 end_time: 1741979816576
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8550a55e7df44d278df1da9209d4d1f4
 run_name: resilient-jay-16
 run_uuid: 8550a55e7df44d278df1da9209d4d1f4

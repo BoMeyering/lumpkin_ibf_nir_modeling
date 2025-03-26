@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/789995975365217233/6ef823f0340649388b16349cccf3262b/artifacts
+deleted_time: 1742011764501
 end_time: 1741993782114
 entry_point_name: ''
 experiment_id: '789995975365217233'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6ef823f0340649388b16349cccf3262b
 run_name: charming-horse-662
 run_uuid: 6ef823f0340649388b16349cccf3262b

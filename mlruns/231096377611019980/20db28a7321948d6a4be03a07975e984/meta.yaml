@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/20db28a7321948d6a4be03a07975e984/artifacts
+deleted_time: 1742011764581
 end_time: 1741980388813
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 20db28a7321948d6a4be03a07975e984
 run_name: sedate-steed-632
 run_uuid: 20db28a7321948d6a4be03a07975e984

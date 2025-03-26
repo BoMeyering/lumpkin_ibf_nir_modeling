@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/584546235502743612/060d5abc56314b96a73915f5048d86f6/artifacts
+deleted_time: 1742011764478
 end_time: 1741993838443
 entry_point_name: ''
 experiment_id: '584546235502743612'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 060d5abc56314b96a73915f5048d86f6
 run_name: bittersweet-ram-59
 run_uuid: 060d5abc56314b96a73915f5048d86f6

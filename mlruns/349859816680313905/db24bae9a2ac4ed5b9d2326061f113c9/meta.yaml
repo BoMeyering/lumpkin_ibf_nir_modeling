@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/349859816680313905/db24bae9a2ac4ed5b9d2326061f113c9/artifacts
+deleted_time: 1742011764456
 end_time: 1741993867931
 entry_point_name: ''
 experiment_id: '349859816680313905'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: db24bae9a2ac4ed5b9d2326061f113c9
 run_name: glamorous-gnat-264
 run_uuid: db24bae9a2ac4ed5b9d2326061f113c9

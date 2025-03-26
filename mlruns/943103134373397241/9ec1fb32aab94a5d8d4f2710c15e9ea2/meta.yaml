@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/943103134373397241/9ec1fb32aab94a5d8d4f2710c15e9ea2/artifacts
+deleted_time: 1742011794421
 end_time: 1741977177853
 entry_point_name: ''
 experiment_id: '943103134373397241'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9ec1fb32aab94a5d8d4f2710c15e9ea2
 run_name: unique-crane-407
 run_uuid: 9ec1fb32aab94a5d8d4f2710c15e9ea2

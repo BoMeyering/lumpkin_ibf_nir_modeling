@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/222589e741f441feb5dc004f86141589/artifacts
+deleted_time: 1742011794392
 end_time: 1741979801731
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 222589e741f441feb5dc004f86141589
 run_name: peaceful-squid-152
 run_uuid: 222589e741f441feb5dc004f86141589

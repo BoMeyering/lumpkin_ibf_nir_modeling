@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/231096377611019980/e9679e730f434cdc90ddb34890c88814/artifacts
+deleted_time: 1742011764479
 end_time: 1741993834941
 entry_point_name: ''
 experiment_id: '231096377611019980'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e9679e730f434cdc90ddb34890c88814
 run_name: traveling-fawn-429
 run_uuid: e9679e730f434cdc90ddb34890c88814

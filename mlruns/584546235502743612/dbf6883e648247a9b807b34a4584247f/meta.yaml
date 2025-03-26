@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584546235502743612/dbf6883e648247a9b807b34a4584247f/artifacts
+end_time: 1742011904226
+entry_point_name: ''
+experiment_id: '584546235502743612'
+lifecycle_stage: active
+run_id: dbf6883e648247a9b807b34a4584247f
+run_name: brawny-ram-351
+run_uuid: dbf6883e648247a9b807b34a4584247f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742011901168
+status: 3
+tags: []
+user_id: bomeyering

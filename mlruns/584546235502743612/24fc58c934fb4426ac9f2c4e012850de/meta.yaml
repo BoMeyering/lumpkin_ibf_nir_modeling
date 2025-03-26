@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/584546235502743612/24fc58c934fb4426ac9f2c4e012850de/artifacts
+deleted_time: 1742011764509
 end_time: 1741993767972
 entry_point_name: ''
 experiment_id: '584546235502743612'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 24fc58c934fb4426ac9f2c4e012850de
 run_name: sassy-gnat-182
 run_uuid: 24fc58c934fb4426ac9f2c4e012850de

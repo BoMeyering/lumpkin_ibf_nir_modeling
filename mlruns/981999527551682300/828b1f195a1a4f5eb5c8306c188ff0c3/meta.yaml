@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/981999527551682300/828b1f195a1a4f5eb5c8306c188ff0c3/artifacts
+deleted_time: 1742011764463
 end_time: 1741993857225
 entry_point_name: ''
 experiment_id: '981999527551682300'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 828b1f195a1a4f5eb5c8306c188ff0c3
 run_name: luxuriant-skunk-247
 run_uuid: 828b1f195a1a4f5eb5c8306c188ff0c3

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/e18f4550954943b3af3aa8a3cf3e845f/artifacts
+deleted_time: 1742011764588
 end_time: 1741980370549
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e18f4550954943b3af3aa8a3cf3e845f
 run_name: charming-fawn-219
 run_uuid: e18f4550954943b3af3aa8a3cf3e845f

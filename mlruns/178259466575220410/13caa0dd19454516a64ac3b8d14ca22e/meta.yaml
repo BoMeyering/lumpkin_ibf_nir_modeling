@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/13caa0dd19454516a64ac3b8d14ca22e/artifacts
+deleted_time: 1742011794406
 end_time: 1741977216153
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 13caa0dd19454516a64ac3b8d14ca22e
 run_name: caring-hawk-717
 run_uuid: 13caa0dd19454516a64ac3b8d14ca22e

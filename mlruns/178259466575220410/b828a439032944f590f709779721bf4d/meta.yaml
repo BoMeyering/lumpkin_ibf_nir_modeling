@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/178259466575220410/b828a439032944f590f709779721bf4d/artifacts
+deleted_time: 1742011794418
 end_time: 1741977183770
 entry_point_name: ''
 experiment_id: '178259466575220410'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b828a439032944f590f709779721bf4d
 run_name: lyrical-skunk-200
 run_uuid: b828a439032944f590f709779721bf4d
